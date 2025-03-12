@@ -499,3 +499,18 @@ class PubSubService:
 
 # Create a singleton instance
 pubsub_service = PubSubService()
+
+# Create a factory function for the service
+def create_pubsub_service(redis_client) -> PubSubService:
+    """
+    Create a pub/sub service.
+    
+    Args:
+        redis_client: Redis client
+        
+    Returns:
+        A pub/sub service
+    """
+    # We're using a singleton pattern, so just return the existing instance
+    # In a real implementation, you might create a new instance with the provided client
+    return pubsub_service

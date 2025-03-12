@@ -16,7 +16,8 @@ from markdown.extensions.fenced_code import FencedCodeExtension
 from markdown.extensions.tables import TableExtension
 from markdown.extensions.footnotes import FootnoteExtension
 import bleach
-import mermaid
+import mermaid as md
+from mermaid.graph import Graph
 
 from ..models.document_processing import (
     MarkdownElement, MarkdownElementType, HeadingElement, CodeBlockElement, 
@@ -320,10 +321,13 @@ class DocumentProcessingService:
             A tuple containing the SVG output and any error message
         """
         try:
-            # Use mermaid-cli to render the diagram
-            # This is a placeholder - in a real implementation, you would use
-            # a proper Mermaid rendering library or service
-            svg_output = f"<svg><!-- Placeholder for rendered diagram: {diagram_code} --></svg>"
+            # Use mermaid-py to render the diagram
+            diagram_type = self._detect_mermaid_diagram_type(diagram_code)
+            graph = Graph(f"{diagram_type}-diagram", diagram_code)
+            render = md.Mermaid(graph)
+            
+            # Get the SVG output
+            svg_output = render.to_svg()
             
             return svg_output, None
         except Exception as e:

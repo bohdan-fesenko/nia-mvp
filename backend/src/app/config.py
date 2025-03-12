@@ -112,9 +112,11 @@ class Settings(BaseSettings):
     
     # LLM settings
     OPENAI_API_KEY: Optional[str] = Field(default=None)
+    ANTHROPIC_API_KEY: Optional[str] = Field(default=None)
     DEFAULT_LLM_MODEL: str = Field(default="gpt-4o")
     EMBEDDING_MODEL: str = Field(default="text-embedding-3-small")
     EMBEDDING_DIMENSION: int = Field(default=1536)
+    USE_MOCK_LLM: bool = Field(default=False)
     
     # File storage settings
     UPLOAD_DIR: str = Field(default="uploads")

@@ -61,12 +61,14 @@ T = TypeVar('T', bound=BaseModel)
 
 class LLMService:
     """Service for LLM operations."""
-    
     def __init__(self):
         """Initialize the LLM service."""
-        self.default_provider = LLMProvider(settings.DEFAULT_LLM_PROVIDER)
-        self.default_completion_model = settings.DEFAULT_COMPLETION_MODEL
-        self.default_embedding_model = settings.DEFAULT_EMBEDDING_MODEL
+        # Use Anthropic as the default provider as specified
+        self.default_provider = LLMProvider.ANTHROPIC
+        # Use claude-3.7-sonnet as the default model as specified
+        self.default_completion_model = "claude-3.7-sonnet"
+        # Use text-embedding-3-large as the default embedding model as specified
+        self.default_embedding_model = "text-embedding-3-large"
         
         # API keys
         self.openai_api_key = settings.OPENAI_API_KEY
@@ -1427,8 +1429,12 @@ class StructuredLLMService(Generic[T]):
             examples=examples,
             max_retries=max_retries
         )
-
 # Create singleton instances
 llm_service = LLMService()
 structured_llm_service = StructuredLLMService(llm_service)
-structured_llm_service = StructuredLLMService(llm_service)
+
+# Import output_parser after creating llm_service to avoid circular imports
+from .output_parser import output_parser
+
+# Set llm_service in output_parser
+output_parser.set_llm_service(llm_service)

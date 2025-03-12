@@ -14,8 +14,9 @@ bcrypt
 # Database
 neo4j
 qdrant-client
-redis
-aioredis
+redis>=5.2.1
+# Note: aioredis 2.0.1 has a compatibility issue with Python 3.11
+# Using redis.asyncio instead which is the recommended approach
 
 # LLM and embeddings
 openai
@@ -29,7 +30,7 @@ numpy
 loguru
 markdown
 bleach
-mermaid-cli
+mermaid-py
 msgpack
 
 # Testing

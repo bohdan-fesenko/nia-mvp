@@ -8,8 +8,18 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from loguru import logger
 from passlib.context import CryptContext
+from pydantic import BaseModel
 
 from ..config import settings
+
+class User(BaseModel):
+    """User model for authentication."""
+    id: str
+    username: str
+    email: Optional[str] = None
+    full_name: Optional[str] = None
+    disabled: Optional[bool] = None
+    roles: list[str] = []
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -141,7 +151,7 @@ def decode_token(token: str) -> Dict[str, Any]:
         
     return payload
 
-async def get_current_user(token: str = Depends(oauth2_scheme)) -> Dict[str, Any]:
+async def get_current_user(token: str = Depends(oauth2_scheme)) -> User:
     """
     Get the current user from the JWT token.
     
@@ -149,7 +159,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme)) -> Dict[str, Any
         token: The JWT token from the Authorization header
         
     Returns:
-        Dict[str, Any]: The user data from the token
+        User: The user object from the token
         
     Raises:
         HTTPException: If the token is invalid or expired
@@ -162,10 +172,20 @@ async def get_current_user(token: str = Depends(oauth2_scheme)) -> Dict[str, Any
             detail="Could not validate credentials",
             headers={"WWW-Authenticate": "Bearer"},
         )
-        
-    return payload
+    
+    # Create a User object from the payload
+    user_data = {
+        "id": payload.get("sub", ""),
+        "username": payload.get("username", ""),
+        "email": payload.get("email"),
+        "full_name": payload.get("full_name"),
+        "disabled": payload.get("disabled"),
+        "roles": payload.get("roles", [])
+    }
+    
+    return User(**user_data)
 
-async def get_current_active_user(current_user: Dict[str, Any] = Depends(get_current_user)) -> Dict[str, Any]:
+async def get_current_active_user(current_user: User = Depends(get_current_user)) -> User:
     """
     Get the current active user.
     
@@ -173,11 +193,16 @@ async def get_current_active_user(current_user: Dict[str, Any] = Depends(get_cur
         current_user: The current user from the JWT token
         
     Returns:
-        Dict[str, Any]: The user data
+        User: The user object
         
     Raises:
         HTTPException: If the user is inactive
     """
-    # In a real application, you would check if the user is active here
-    # For now, we just return the current user
+    # Check if the user is disabled
+    if current_user.disabled:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Inactive user"
+        )
+    
     return current_user

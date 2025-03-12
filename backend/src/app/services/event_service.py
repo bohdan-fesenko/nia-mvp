@@ -541,3 +541,6 @@ class EventPublisher:
 
 # Create a singleton instance
 event_publisher = EventPublisher()
+
+# Export the event_publisher as event_service for backward compatibility
+event_service = event_publisher

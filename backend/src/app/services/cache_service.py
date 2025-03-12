@@ -523,6 +523,21 @@ class CacheService:
         key = f"mermaid:{diagram_hash}"
         return await self.invalidate(key)
 
-
 # Create a singleton instance
+cache_service = CacheService()
+
+# Create a factory function for the service
+def create_cache_service(redis_client) -> CacheService:
+    """
+    Create a cache service.
+    
+    Args:
+        redis_client: Redis client
+        
+    Returns:
+        A cache service
+    """
+    # We're using a singleton pattern, so just return the existing instance
+    # In a real implementation, you might create a new instance with the provided client
+    return cache_service
 cache_service = CacheService()

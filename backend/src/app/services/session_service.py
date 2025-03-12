@@ -317,3 +317,18 @@ class SessionService:
 
 # Create a singleton instance
 session_service = SessionService()
+
+# Create a factory function for the service
+def create_session_service(redis_client) -> SessionService:
+    """
+    Create a session service.
+    
+    Args:
+        redis_client: Redis client
+        
+    Returns:
+        A session service
+    """
+    # We're using a singleton pattern, so just return the existing instance
+    # In a real implementation, you might create a new instance with the provided client
+    return session_service

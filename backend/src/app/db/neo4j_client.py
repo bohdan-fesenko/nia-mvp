@@ -473,6 +473,17 @@ class Neo4jClient:
         result = await self.execute_query_async(query, {'id': node_id})
         return [record['b'] for record in result]
 
-
 # Create a singleton instance
+neo4j_client = Neo4jClient()
+
+# Function to get the Neo4j client
+async def get_neo4j_client():
+    """
+    Get the Neo4j client.
+    
+    Returns:
+        The Neo4j client
+    """
+    await neo4j_client.connect_async()
+    return neo4j_client
 neo4j_client = Neo4jClient()

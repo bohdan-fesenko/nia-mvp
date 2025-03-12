@@ -49,7 +49,8 @@ class ProjectRepository(Neo4jRepository[Project]):
             description=record.get('description'),
             is_archived=record.get('is_archived', False),
             created_at=created_at,
-            updated_at=updated_at
+            updated_at=updated_at,
+            owner_id=record.get('owner_id')
         )
     
     def map_to_db(self, entity: Union[Dict[str, Any], Project]) -> Dict[str, Any]:
@@ -70,7 +71,8 @@ class ProjectRepository(Neo4jRepository[Project]):
                 'description': entity.description,
                 'is_archived': entity.is_archived,
                 'created_at': entity.created_at.isoformat() if entity.created_at else None,
-                'updated_at': entity.updated_at.isoformat() if entity.updated_at else None
+                'updated_at': entity.updated_at.isoformat() if entity.updated_at else None,
+                'owner_id': entity.owner_id
             }
         
         # Entity is already a dictionary

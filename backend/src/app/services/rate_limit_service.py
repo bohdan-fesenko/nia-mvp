@@ -344,3 +344,18 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
 
 # Create a singleton instance
 rate_limit_service = RateLimitService()
+
+# Create a factory function for the service
+def create_rate_limit_service(redis_client) -> RateLimitService:
+    """
+    Create a rate limit service.
+    
+    Args:
+        redis_client: Redis client
+        
+    Returns:
+        A rate limit service
+    """
+    # We're using a singleton pattern, so just return the existing instance
+    # In a real implementation, you might create a new instance with the provided client
+    return rate_limit_service

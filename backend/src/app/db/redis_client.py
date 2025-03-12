@@ -12,10 +12,10 @@ import uuid
 import msgpack
 
 import redis
-import aioredis
 from redis.exceptions import RedisError
 from redis.asyncio.client import Redis as AsyncRedis
 from redis.asyncio.connection import ConnectionPool as AsyncConnectionPool
+from redis.asyncio.client import PubSub as AsyncPubSub
 
 from ..config import settings
 
@@ -91,18 +91,25 @@ class RedisClient:
         if self._async_client is None:
             try:
                 # Create an async connection pool
-                self._async_connection_pool = AsyncConnectionPool(
-                    host=self._host,
-                    port=self._port,
-                    password=self._password,
-                    db=self._db,
-                    ssl=self._ssl,
-                    max_connections=self._max_connections,
-                    socket_timeout=self._socket_timeout,
-                    socket_connect_timeout=self._socket_connect_timeout,
-                    retry_on_timeout=self._retry_on_timeout,
-                    decode_responses=True  # Automatically decode responses to strings
-                )
+                # Handle SSL parameter conditionally to avoid errors with some Redis versions
+                connection_params = {
+                    "host": self._host,
+                    "port": self._port,
+                    "password": self._password,
+                    "db": self._db,
+                    "max_connections": self._max_connections,
+                    "socket_timeout": self._socket_timeout,
+                    "socket_connect_timeout": self._socket_connect_timeout,
+                    "retry_on_timeout": self._retry_on_timeout,
+                    "decode_responses": True  # Automatically decode responses to strings
+                }
+                
+                # Only add SSL parameter if it's enabled to avoid errors with some Redis versions
+                if self._ssl:
+                    # Try to use ssl_certfile parameter instead of ssl for async connections
+                    connection_params["ssl"] = True
+                
+                self._async_connection_pool = AsyncConnectionPool(**connection_params)
                 
                 # Create an async Redis client using the connection pool
                 self._async_client = AsyncRedis(connection_pool=self._async_connection_pool)
@@ -778,7 +785,7 @@ class RedisClient:
             logger.error(f"Error subscribing to channel {channel}: {str(e)}")
             return False
 
-    async def subscribe_async(self, channel: str) -> Optional[aioredis.client.PubSub]:
+    async def subscribe_async(self, channel: str) -> Optional[AsyncPubSub]:
         """
         Subscribe to a channel asynchronously.
         
@@ -1263,3 +1270,14 @@ class RedisClient:
 
 # Create a singleton instance
 redis_client = RedisClient()
+
+# Function to get the Redis client
+async def get_redis_client():
+    """
+    Get the Redis client.
+    
+    Returns:
+        The Redis client
+    """
+    await redis_client.connect_async()
+    return redis_client

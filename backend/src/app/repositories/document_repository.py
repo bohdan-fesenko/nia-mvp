@@ -46,7 +46,7 @@ class DocumentRepository(Neo4jRepository[Document]):
             
         return Document(
             id=record.get('id'),
-            name=record.get('name'),
+            name=record.get('name'),  # Use name instead of title
             type=record.get('type'),
             is_task=record.get('is_task', False),
             status=record.get('status'),
@@ -55,7 +55,8 @@ class DocumentRepository(Neo4jRepository[Document]):
             folder_id=record.get('folder_id'),
             created_by=record.get('created_by'),
             created_at=created_at,
-            updated_at=updated_at
+            updated_at=updated_at,
+            owner_id=record.get('owner_id') or record.get('created_by')  # Use created_by as fallback
         )
     
     def map_to_db(self, entity: Union[Dict[str, Any], Document]) -> Dict[str, Any]:
@@ -72,7 +73,7 @@ class DocumentRepository(Neo4jRepository[Document]):
             # Convert Document object to dictionary
             return {
                 'id': entity.id,
-                'name': entity.name,
+                'name': entity.name,  # Use name instead of title
                 'type': entity.type,
                 'is_task': entity.is_task,
                 'status': entity.status,
@@ -81,7 +82,8 @@ class DocumentRepository(Neo4jRepository[Document]):
                 'folder_id': entity.folder_id,
                 'created_by': entity.created_by,
                 'created_at': entity.created_at.isoformat() if entity.created_at else None,
-                'updated_at': entity.updated_at.isoformat() if entity.updated_at else None
+                'updated_at': entity.updated_at.isoformat() if entity.updated_at else None,
+                'owner_id': entity.owner_id
             }
         
         # Entity is already a dictionary
@@ -252,7 +254,8 @@ class DocumentRepository(Neo4jRepository[Document]):
                 content=content,
                 created_by=user_id,
                 change_summary=change_summary,
-                created_at=datetime.utcnow()
+                created_at=datetime.utcnow(),
+                author_id=user_id  # Use user_id as author_id
             )
         except Exception as e:
             logger.error(f"Error creating document version: {str(e)}")
@@ -300,8 +303,9 @@ class DocumentRepository(Neo4jRepository[Document]):
                 content=version_node.get('content'),
                 created_by=version_node.get('created_by'),
                 change_summary=version_node.get('change_summary'),
-                created_at=datetime.fromisoformat(version_node.get('created_at').replace('Z', '+00:00')) 
-                    if isinstance(version_node.get('created_at'), str) else version_node.get('created_at')
+                created_at=datetime.fromisoformat(version_node.get('created_at').replace('Z', '+00:00'))
+                    if isinstance(version_node.get('created_at'), str) else version_node.get('created_at'),
+                author_id=version_node.get('created_by')  # Use created_by as author_id
             )
         except Exception as e:
             logger.error(f"Error getting document version: {str(e)}")
@@ -338,8 +342,9 @@ class DocumentRepository(Neo4jRepository[Document]):
                     content=version_node.get('content'),
                     created_by=version_node.get('created_by'),
                     change_summary=version_node.get('change_summary'),
-                    created_at=datetime.fromisoformat(version_node.get('created_at').replace('Z', '+00:00')) 
-                        if isinstance(version_node.get('created_at'), str) else version_node.get('created_at')
+                    created_at=datetime.fromisoformat(version_node.get('created_at').replace('Z', '+00:00'))
+                        if isinstance(version_node.get('created_at'), str) else version_node.get('created_at'),
+                    author_id=version_node.get('created_by')  # Use created_by as author_id
                 )
                 
                 versions.append(version)

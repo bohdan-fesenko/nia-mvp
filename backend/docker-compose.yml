@@ -41,6 +41,21 @@ services:
       timeout: 5s
       retries: 5
 
+  redis:
+    image: redis:latest
+    container_name: ai-project-assistant-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
   api:
     build:
       context: .
@@ -51,12 +66,18 @@ services:
     depends_on:
       - neo4j
       - qdrant
+      - redis
     environment:
       - NEO4J_URI=bolt://neo4j:7687
       - NEO4J_USERNAME=neo4j
       - NEO4J_PASSWORD=password
       - NEO4J_DATABASE=neo4j
       - QDRANT_URL=http://qdrant:6333
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=
+      - REDIS_DB=0
+      - REDIS_SSL=False
       - DEBUG=True
       - ENVIRONMENT=development
       - HOST=0.0.0.0
@@ -78,3 +99,4 @@ volumes:
   neo4j_import:
   neo4j_plugins:
   qdrant_data:
+  redis_data:

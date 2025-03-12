@@ -9,12 +9,21 @@ from pydantic import BaseModel, ValidationError, create_model, Field
 from loguru import logger
 
 from ..config import settings
-from .llm_service import llm_service
+# Remove direct import of llm_service to break circular dependency
 
 T = TypeVar('T', bound=BaseModel)
 
-
 class OutputParser(Generic[T]):
+    """Service for parsing and validating structured outputs from LLMs."""
+    
+    def __init__(self):
+        """Initialize the output parser."""
+        # llm_service will be set later to avoid circular imports
+        self.llm_service = None
+    
+    def set_llm_service(self, llm_service):
+        """Set the LLM service instance."""
+        self.llm_service = llm_service
     """Service for parsing and validating structured outputs from LLMs."""
     
     async def parse_structured_output(
@@ -133,7 +142,10 @@ Do not include any explanations or markdown formatting in your response, just th
         for attempt in range(max_retries + 1):
             try:
                 # Generate response
-                response = await llm_service.generate(
+                if not self.llm_service:
+                    raise ValueError("LLM service not set. Call set_llm_service() first.")
+                
+                response = await self.llm_service.generate(
                     prompt=formatted_prompt,
                     system_prompt=system_prompt
                 )

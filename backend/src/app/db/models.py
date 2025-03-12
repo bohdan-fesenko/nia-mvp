@@ -194,7 +194,7 @@ class ProjectResponse(AppBaseModel):
 class Document(AppBaseModel):
     """Document model"""
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
-    title: str
+    name: str  # Changed from title to name to match database schema
     type: str  # e.g., "markdown", "code", "task", etc.
     is_task: bool = False
     status: Optional[str] = None  # For task documents: "todo", "in_progress", "done", etc.
@@ -209,7 +209,7 @@ class Document(AppBaseModel):
         json_schema_extra={
             "example": {
                 "id": "550e8400-e29b-41d4-a716-446655440000",
-                "title": "Project Requirements",
+                "name": "Project Requirements",  # Changed from title to name to match database schema
                 "type": "markdown",
                 "is_task": False,
                 "status": None,
@@ -226,7 +226,7 @@ class Document(AppBaseModel):
 
 class DocumentCreate(AppBaseModel):
     """Model for document creation"""
-    title: str
+    name: str  # Changed from title to name to match database schema
     type: str
     is_task: bool = False
     status: Optional[str] = None
@@ -236,7 +236,7 @@ class DocumentCreate(AppBaseModel):
     model_config = ConfigDict(
         json_schema_extra={
             "example": {
-                "title": "Project Requirements",
+                "name": "Project Requirements",  # Changed from title to name to match database schema
                 "type": "markdown",
                 "is_task": False,
                 "status": None,
@@ -249,7 +249,7 @@ class DocumentCreate(AppBaseModel):
 
 class DocumentUpdate(AppBaseModel):
     """Model for document update"""
-    title: Optional[str] = None
+    name: Optional[str] = None  # Changed from title to name to match database schema
     type: Optional[str] = None
     is_task: Optional[bool] = None
     status: Optional[str] = None
@@ -259,7 +259,7 @@ class DocumentUpdate(AppBaseModel):
     model_config = ConfigDict(
         json_schema_extra={
             "example": {
-                "title": "Updated Project Requirements",
+                "name": "Updated Project Requirements",  # Changed from title to name to match database schema
                 "status": "completed",
                 "is_archived": True
             }
@@ -270,7 +270,7 @@ class DocumentUpdate(AppBaseModel):
 class DocumentResponse(AppBaseModel):
     """Document response model"""
     id: str
-    title: str
+    name: str  # Changed from title to name to match database schema
     type: str
     is_task: bool
     status: Optional[str] = None
@@ -285,7 +285,7 @@ class DocumentResponse(AppBaseModel):
         json_schema_extra={
             "example": {
                 "id": "550e8400-e29b-41d4-a716-446655440000",
-                "title": "Project Requirements",
+                "name": "Project Requirements",  # Changed from title to name to match database schema
                 "type": "markdown",
                 "is_task": False,
                 "status": None,

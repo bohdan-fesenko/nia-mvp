@@ -183,20 +183,35 @@ async def cleanup_stale_connections():
             current_time = time.time()
             stale_connections = []
             
+            # Log current connection state before cleanup
+            logger.info(f"Connection state before cleanup: {len(connection_last_activity)} tracked connections")
+            for user_id, connections in active_connections_per_user.items():
+                logger.info(f"User {user_id} has {len(connections)} active connections")
+            
             # Find stale connections
             for conn_id, last_activity in connection_last_activity.items():
-                if current_time - last_activity > CONNECTION_TIMEOUT_SECONDS:
+                time_inactive = current_time - last_activity
+                if time_inactive > CONNECTION_TIMEOUT_SECONDS:
                     stale_connections.append(conn_id)
+                    logger.info(f"Found stale connection: {conn_id} (inactive for {time_inactive:.1f}s)")
+                elif time_inactive > CONNECTION_TIMEOUT_SECONDS / 2:
+                    # Log connections that are becoming stale
+                    logger.debug(f"Connection {conn_id} becoming stale (inactive for {time_inactive:.1f}s)")
             
             # Clean up stale connections
+            logger.info(f"Found {len(stale_connections)} stale connections to clean up")
             for conn_id in stale_connections:
                 logger.info(f"Cleaning up stale connection: {conn_id}")
                 user_id = connection_manager.connection_user.get(conn_id)
                 
                 if user_id and conn_id in active_connections_per_user.get(user_id, set()):
+                    logger.info(f"Removing connection {conn_id} from user {user_id} tracking")
                     active_connections_per_user[user_id].discard(conn_id)
                     if not active_connections_per_user[user_id]:
+                        logger.info(f"User {user_id} has no more active connections, removing from tracking")
                         del active_connections_per_user[user_id]
+                else:
+                    logger.warning(f"Connection {conn_id} not found in user tracking for user {user_id}")
                 
                 # Remove from tracking
                 connection_last_activity.pop(conn_id, None)
@@ -207,6 +222,11 @@ async def cleanup_stale_connections():
             
             # Clean up rate limiting data
             cleanup_rate_limiting_data()
+            
+            # Log connection state after cleanup
+            logger.info(f"Connection state after cleanup: {len(connection_last_activity)} tracked connections")
+            for user_id, connections in active_connections_per_user.items():
+                logger.info(f"User {user_id} has {len(connections)} active connections")
             
             # Sleep for a while before checking again
             await asyncio.sleep(15)  # Check every 15 seconds
@@ -225,6 +245,9 @@ async def websocket_endpoint(websocket: WebSocket):
     WebSocket endpoint for real-time updates.
     """
     connection_id = None
+    client_ip = websocket.client.host
+    logger.info(f"New WebSocket connection attempt from {client_ip}")
+    
     try:
         # Authenticate user
         user_data = await get_websocket_user(websocket)
@@ -300,6 +323,10 @@ async def websocket_endpoint(websocket: WebSocket):
         
         # Check if user has too many active connections
         if user_id in active_connections_per_user:
+            # Log current connection count for this user
+            current_connections = len(active_connections_per_user[user_id])
+            logger.info(f"User {user_id} has {current_connections}/{MAX_CONNECTIONS_PER_USER} active connections")
+            
             # Aggressively clean up stale connections for this user
             current_time = time.time()
             stale_connections = []
@@ -308,8 +335,13 @@ async def websocket_endpoint(websocket: WebSocket):
             for conn_id in active_connections_per_user[user_id]:
                 # Check if connection is stale (no activity for 60 seconds)
                 last_activity = connection_last_activity.get(conn_id, 0)
-                if current_time - last_activity > 60:  # 60 seconds timeout
+                time_inactive = current_time - last_activity
+                if time_inactive > 60:  # 60 seconds timeout
                     stale_connections.append(conn_id)
+                    logger.info(f"Found stale connection {conn_id} for user {user_id} (inactive for {time_inactive:.1f}s)")
+            
+            # Log stale connections found
+            logger.info(f"Found {len(stale_connections)} stale connections for user {user_id}")
             
             # Remove stale connections
             for conn_id in stale_connections:
@@ -320,8 +352,19 @@ async def websocket_endpoint(websocket: WebSocket):
                 await connection_manager.disconnect(conn_id)
             
             # Now check if user still has too many connections
-            if len(active_connections_per_user[user_id]) >= MAX_CONNECTIONS_PER_USER:
+            remaining_connections = len(active_connections_per_user[user_id])
+            logger.info(f"User {user_id} has {remaining_connections}/{MAX_CONNECTIONS_PER_USER} connections after cleanup")
+            
+            if remaining_connections >= MAX_CONNECTIONS_PER_USER:
                 logger.warning(f"Too many connections for user {user_id} (max: {MAX_CONNECTIONS_PER_USER})")
+                # Log connection details for debugging
+                for conn_id in active_connections_per_user[user_id]:
+                    conn_time = connection_timestamps.get(conn_id, 0)
+                    last_activity = connection_last_activity.get(conn_id, 0)
+                    age = current_time - conn_time
+                    idle = current_time - last_activity
+                    logger.info(f"Connection {conn_id}: age={age:.1f}s, idle={idle:.1f}s")
+                
                 try:
                     await websocket.close(code=status.WS_1008_POLICY_VIOLATION,
                                          reason=f"Too many connections (max: {MAX_CONNECTIONS_PER_USER})")
@@ -329,18 +372,27 @@ async def websocket_endpoint(websocket: WebSocket):
                     logger.error(f"Error closing WebSocket: {str(close_error)}")
                 return
         else:
+            logger.info(f"First connection for user {user_id}")
             active_connections_per_user[user_id] = set()
             
         # Accept connection
         connection_id = await connection_manager.connect(websocket, user_id)
+        logger.info(f"Connection accepted: {connection_id} for user {user_id}")
         
         # Track this connection
         active_connections_per_user[user_id].add(connection_id)
+        new_count = len(active_connections_per_user[user_id])
+        logger.info(f"User {user_id} now has {new_count}/{MAX_CONNECTIONS_PER_USER} active connections")
         
         # Record connection timestamp and last activity
         current_time = time.time()
         connection_timestamps[connection_id] = current_time
         connection_last_activity[connection_id] = current_time
+        logger.info(f"Connection {connection_id} timestamp recorded at {current_time}")
+        
+        # Log connection manager state
+        cm_connections = len(connection_manager.active_connections)
+        logger.info(f"Connection manager now has {cm_connections} active connections")
         
         # Process any missed events
         await connection_manager.process_missed_events(connection_id)
@@ -467,14 +519,21 @@ async def websocket_endpoint(websocket: WebSocket):
                     logger.error(f"Error sending error message: {str(send_error)}")
     except WebSocketDisconnect:
         # Client disconnected
+        logger.info(f"WebSocket disconnected: {connection_id} for user {user_id}")
         if connection_id:
+            logger.info(f"Disconnecting connection {connection_id} from connection manager")
             await connection_manager.disconnect(connection_id)
             
             # Remove from tracking
             if user_id in active_connections_per_user:
+                logger.info(f"Removing connection {connection_id} from user {user_id} tracking")
                 active_connections_per_user[user_id].discard(connection_id)
                 if not active_connections_per_user[user_id]:
+                    logger.info(f"User {user_id} has no more active connections, removing from tracking")
                     del active_connections_per_user[user_id]
+                else:
+                    remaining = len(active_connections_per_user[user_id])
+                    logger.info(f"User {user_id} has {remaining} remaining connections")
     
     
     except Exception as e:
@@ -482,12 +541,18 @@ async def websocket_endpoint(websocket: WebSocket):
         logger.error(f"WebSocket error: {str(e)}")
         try:
             if connection_id:
+                logger.info(f"Disconnecting connection {connection_id} due to error")
                 await connection_manager.disconnect(connection_id)
                 
                 # Remove from tracking
                 if user_id in active_connections_per_user:
+                    logger.info(f"Removing connection {connection_id} from user {user_id} tracking due to error")
                     active_connections_per_user[user_id].discard(connection_id)
                     if not active_connections_per_user[user_id]:
+                        logger.info(f"User {user_id} has no more active connections, removing from tracking")
                         del active_connections_per_user[user_id]
+                    else:
+                        remaining = len(active_connections_per_user[user_id])
+                        logger.info(f"User {user_id} has {remaining} remaining connections after error")
         except Exception as disconnect_error:
             logger.error(f"Error disconnecting: {str(disconnect_error)}")

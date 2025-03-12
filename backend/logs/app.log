@@ -15173,3 +15173,567 @@
 2025-03-12 20:17:32 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 78a1b4e8-a570-41c5-961a-5da9d5731c3e (User: dev-user-id)
 2025-03-12 20:17:32 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 44350f26-8158-4343-aef4-8557d7e83e4b (User: dev-user-id)
 2025-03-12 20:17:32 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-12 20:26:22 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-12 20:26:22 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-12 20:26:22 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-12 20:26:22 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-12 20:26:22 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 20:26:22 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-12 20:26:22 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-12 20:26:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-12 20:26:22 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-12 20:26:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-12 20:26:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-12 20:26:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-12 20:26:22 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-12 20:26:22 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-12 20:26:22 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 0406e13c-783a-42bc-a131-d5fe7fc36a41 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8f3319b3-5748-444d-a12a-ce7e64019f7a (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c4aca2c6-6aae-4a90-b061-c6fb5017789b (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 6148e0b5-a63e-49d6-92cc-9a16f9c3a040 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: a5c51dc2-9019-4df3-8a94-136008646162 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 72b1053c-bce8-42d4-8694-429d584e98d9 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: e2cf6437-be20-4a29-a5d3-15e500442d02 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 2366a458-538d-46cf-82b0-d7682c2c3214 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c44f85a8-77e7-4256-a190-d289bef0b181 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: d4c13386-3f30-4526-92c3-6cdd2c92aec7 (User: dev-user-id)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:324 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 21 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 22 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 23 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 24 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 25 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 26 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 27 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 28 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 29 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 30 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 31 attempts in the last minute
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:37 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 32 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 33 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 34 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 35 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 36 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 37 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 38 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 39 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 40 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 41 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 42 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 43 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 44 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 45 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 46 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 47 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 48 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 49 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 50 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 51 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 52 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 53 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 54 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 55 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 56 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 57 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 58 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 59 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 60 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 61 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 62 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 63 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 64 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 65 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 66 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 67 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 68 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 69 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 70 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 71 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 72 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 73 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 74 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 75 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 76 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 77 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 78 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 79 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 80 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 81 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 82 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 83 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 84 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 85 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 86 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 87 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 88 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 89 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 90 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 91 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 92 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 93 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 94 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 95 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 96 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 97 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 98 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 99 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 100 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 101 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 102 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 103 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 104 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 105 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 106 attempts in the last minute
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:38 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 107 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 108 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 109 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 110 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 111 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 112 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 113 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 114 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 115 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 116 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 117 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 118 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 119 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 120 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 121 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 122 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 123 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 124 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 125 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 126 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 127 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 128 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 129 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 130 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 131 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 132 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 133 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 134 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 135 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 136 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 137 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 138 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 139 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 140 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 141 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 142 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 143 attempts in the last minute
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:26:39 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:256 - Rate limit exceeded for 127.0.0.1: 144 attempts in the last minute
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 72b1053c-bce8-42d4-8694-429d584e98d9 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: e2cf6437-be20-4a29-a5d3-15e500442d02 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 2366a458-538d-46cf-82b0-d7682c2c3214 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: d4c13386-3f30-4526-92c3-6cdd2c92aec7 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c44f85a8-77e7-4256-a190-d289bef0b181 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: a5c51dc2-9019-4df3-8a94-136008646162 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 0406e13c-783a-42bc-a131-d5fe7fc36a41 (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8f3319b3-5748-444d-a12a-ce7e64019f7a (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c4aca2c6-6aae-4a90-b061-c6fb5017789b (User: dev-user-id)
+2025-03-12 20:26:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 6148e0b5-a63e-49d6-92cc-9a16f9c3a040 (User: dev-user-id)
+2025-03-12 20:26:39 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-12 20:32:58 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-12 20:32:58 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-12 20:32:58 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-12 20:32:58 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-12 20:32:58 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 20:32:58 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-12 20:32:58 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-12 20:32:58 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-12 20:32:58 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-12 20:32:58 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-12 20:32:58 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-12 20:32:58 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-12 20:32:58 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-12 20:32:58 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-12 20:32:58 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-12 20:32:58 | INFO     | src.app.api.routes.websocket:cleanup_stale_connections:187 - Connection state before cleanup: 0 tracked connections
+2025-03-12 20:32:58 | INFO     | src.app.api.routes.websocket:cleanup_stale_connections:202 - Found 0 stale connections to clean up
+2025-03-12 20:32:58 | INFO     | src.app.api.routes.websocket:cleanup_stale_connections:227 - Connection state after cleanup: 0 tracked connections
+2025-03-12 20:32:58 | INFO     | src.app.api.routes.websocket:cleanup_stale_connections:187 - Connection state before cleanup: 0 tracked connections
+2025-03-12 20:32:58 | INFO     | src.app.api.routes.websocket:cleanup_stale_connections:202 - Found 0 stale connections to clean up
+2025-03-12 20:32:58 | INFO     | src.app.api.routes.websocket:cleanup_stale_connections:227 - Connection state after cleanup: 0 tracked connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:375 - First connection for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 81243bdf-e909-49a9-a8a4-819b289aa121 (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: 81243bdf-e909-49a9-a8a4-819b289aa121 for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 1/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection 81243bdf-e909-49a9-a8a4-819b289aa121 timestamp recorded at 1741804388.093872
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 1 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 1/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 1/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 37d1ce91-4e2f-45a9-b637-0c095039529f (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: 37d1ce91-4e2f-45a9-b637-0c095039529f for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 2/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection 37d1ce91-4e2f-45a9-b637-0c095039529f timestamp recorded at 1741804388.141052
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 2 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 2/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 2/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 17b57c4a-5390-4f3f-a512-db9a40b38ca7 (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: 17b57c4a-5390-4f3f-a512-db9a40b38ca7 for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 3/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7 timestamp recorded at 1741804388.2198532
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 3 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 3/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 3/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 4/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 timestamp recorded at 1741804388.232794
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 4 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 4/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 4/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 908ccdcc-3217-4ea9-b164-0568ea98975b (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: 908ccdcc-3217-4ea9-b164-0568ea98975b for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 5/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection 908ccdcc-3217-4ea9-b164-0568ea98975b timestamp recorded at 1741804388.68194
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 5 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 5/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 5/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: e4c3a351-b7c9-4fef-8a87-9ff5badd6ead (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: e4c3a351-b7c9-4fef-8a87-9ff5badd6ead for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 6/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead timestamp recorded at 1741804388.7982342
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 6 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 6/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 6/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: cd5919db-b36e-4203-8531-8aa250dd48a8 (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: cd5919db-b36e-4203-8531-8aa250dd48a8 for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 7/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection cd5919db-b36e-4203-8531-8aa250dd48a8 timestamp recorded at 1741804388.910233
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 7 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 7/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 7/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: d4a4c2c1-512b-4970-b02c-d5f2031162ef (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: d4a4c2c1-512b-4970-b02c-d5f2031162ef for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 8/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection d4a4c2c1-512b-4970-b02c-d5f2031162ef timestamp recorded at 1741804388.945877
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 8 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:08 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 8/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 8/10 connections after cleanup
+2025-03-12 20:33:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 6cd8c15c-e459-463b-b4a4-80ccb14372bd (User: dev-user-id)
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: 6cd8c15c-e459-463b-b4a4-80ccb14372bd for user dev-user-id
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 9/10 active connections
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd timestamp recorded at 1741804388.989683
+2025-03-12 20:33:08 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 9 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 9/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 9/10 connections after cleanup
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f4d70d58-b8b6-4f76-992b-217c14627d3d (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:380 - Connection accepted: f4d70d58-b8b6-4f76-992b-217c14627d3d for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:385 - User dev-user-id now has 10/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:391 - Connection f4d70d58-b8b6-4f76-992b-217c14627d3d timestamp recorded at 1741804389.0659041
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:395 - Connection manager now has 10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 10/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 10/10 connections after cleanup
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:359 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 908ccdcc-3217-4ea9-b164-0568ea98975b: age=0.4s, idle=0.4s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection f4d70d58-b8b6-4f76-992b-217c14627d3d: age=0.0s, idle=0.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead: age=0.3s, idle=0.3s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection cd5919db-b36e-4203-8531-8aa250dd48a8: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 37d1ce91-4e2f-45a9-b637-0c095039529f: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection d4a4c2c1-512b-4970-b02c-d5f2031162ef: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088: age=0.8s, idle=0.8s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 81243bdf-e909-49a9-a8a4-819b289aa121: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 10/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 10/10 connections after cleanup
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:359 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 908ccdcc-3217-4ea9-b164-0568ea98975b: age=0.4s, idle=0.4s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection f4d70d58-b8b6-4f76-992b-217c14627d3d: age=0.0s, idle=0.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead: age=0.3s, idle=0.3s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection cd5919db-b36e-4203-8531-8aa250dd48a8: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 37d1ce91-4e2f-45a9-b637-0c095039529f: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection d4a4c2c1-512b-4970-b02c-d5f2031162ef: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 81243bdf-e909-49a9-a8a4-819b289aa121: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 10/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 10/10 connections after cleanup
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:359 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 908ccdcc-3217-4ea9-b164-0568ea98975b: age=0.4s, idle=0.4s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection f4d70d58-b8b6-4f76-992b-217c14627d3d: age=0.0s, idle=0.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead: age=0.3s, idle=0.3s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection cd5919db-b36e-4203-8531-8aa250dd48a8: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 37d1ce91-4e2f-45a9-b637-0c095039529f: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection d4a4c2c1-512b-4970-b02c-d5f2031162ef: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 81243bdf-e909-49a9-a8a4-819b289aa121: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 10/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 10/10 connections after cleanup
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:359 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 908ccdcc-3217-4ea9-b164-0568ea98975b: age=0.5s, idle=0.5s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection f4d70d58-b8b6-4f76-992b-217c14627d3d: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead: age=0.4s, idle=0.4s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection cd5919db-b36e-4203-8531-8aa250dd48a8: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 37d1ce91-4e2f-45a9-b637-0c095039529f: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection d4a4c2c1-512b-4970-b02c-d5f2031162ef: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 81243bdf-e909-49a9-a8a4-819b289aa121: age=1.1s, idle=1.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:249 - New WebSocket connection attempt from 127.0.0.1
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:46 - Using development mode authentication bypass
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:328 - User dev-user-id has 10/10 active connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:344 - Found 0 stale connections for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:356 - User dev-user-id has 10/10 connections after cleanup
+2025-03-12 20:33:09 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:359 - Too many connections for user dev-user-id (max: 10)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 908ccdcc-3217-4ea9-b164-0568ea98975b: age=0.5s, idle=0.5s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection f4d70d58-b8b6-4f76-992b-217c14627d3d: age=0.1s, idle=0.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead: age=0.4s, idle=0.4s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection cd5919db-b36e-4203-8531-8aa250dd48a8: age=0.3s, idle=0.3s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 37d1ce91-4e2f-45a9-b637-0c095039529f: age=1.0s, idle=1.0s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection d4a4c2c1-512b-4970-b02c-d5f2031162ef: age=0.2s, idle=0.2s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088: age=0.9s, idle=0.9s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:366 - Connection 81243bdf-e909-49a9-a8a4-819b289aa121: age=1.1s, idle=1.1s
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: cd5919db-b36e-4203-8531-8aa250dd48a8 for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection cd5919db-b36e-4203-8531-8aa250dd48a8 from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: cd5919db-b36e-4203-8531-8aa250dd48a8 (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection cd5919db-b36e-4203-8531-8aa250dd48a8 from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 9 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: 6cd8c15c-e459-463b-b4a4-80ccb14372bd for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 6cd8c15c-e459-463b-b4a4-80ccb14372bd (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection 6cd8c15c-e459-463b-b4a4-80ccb14372bd from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 8 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: f4d70d58-b8b6-4f76-992b-217c14627d3d for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection f4d70d58-b8b6-4f76-992b-217c14627d3d from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f4d70d58-b8b6-4f76-992b-217c14627d3d (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection f4d70d58-b8b6-4f76-992b-217c14627d3d from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 7 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection 8e32a0da-bee8-46a2-a6c3-be33ff3a0088 from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 6 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: e4c3a351-b7c9-4fef-8a87-9ff5badd6ead for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: e4c3a351-b7c9-4fef-8a87-9ff5badd6ead (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection e4c3a351-b7c9-4fef-8a87-9ff5badd6ead from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 5 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: 81243bdf-e909-49a9-a8a4-819b289aa121 for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection 81243bdf-e909-49a9-a8a4-819b289aa121 from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 81243bdf-e909-49a9-a8a4-819b289aa121 (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection 81243bdf-e909-49a9-a8a4-819b289aa121 from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 4 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: d4a4c2c1-512b-4970-b02c-d5f2031162ef for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection d4a4c2c1-512b-4970-b02c-d5f2031162ef from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: d4a4c2c1-512b-4970-b02c-d5f2031162ef (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection d4a4c2c1-512b-4970-b02c-d5f2031162ef from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 3 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: 37d1ce91-4e2f-45a9-b637-0c095039529f for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection 37d1ce91-4e2f-45a9-b637-0c095039529f from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 37d1ce91-4e2f-45a9-b637-0c095039529f (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection 37d1ce91-4e2f-45a9-b637-0c095039529f from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 2 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: 908ccdcc-3217-4ea9-b164-0568ea98975b for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection 908ccdcc-3217-4ea9-b164-0568ea98975b from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 908ccdcc-3217-4ea9-b164-0568ea98975b (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection 908ccdcc-3217-4ea9-b164-0568ea98975b from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:536 - User dev-user-id has 1 remaining connections
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:522 - WebSocket disconnected: 17b57c4a-5390-4f3f-a512-db9a40b38ca7 for user dev-user-id
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:524 - Disconnecting connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7 from connection manager
+2025-03-12 20:33:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 17b57c4a-5390-4f3f-a512-db9a40b38ca7 (User: dev-user-id)
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:529 - Removing connection 17b57c4a-5390-4f3f-a512-db9a40b38ca7 from user dev-user-id tracking
+2025-03-12 20:33:09 | INFO     | src.app.api.routes.websocket:websocket_endpoint:532 - User dev-user-id has no more active connections, removing from tracking
+2025-03-12 20:33:09 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined

@@ -1,0 +1,43 @@
+# FastAPI and web server
+fastapi
+uvicorn
+python-multipart
+email-validator
+pydantic
+pydantic-settings
+
+# Security
+PyJWT  # Correct package name for JWT
+passlib
+bcrypt
+
+# Database
+neo4j
+qdrant-client
+redis
+aioredis
+
+# LLM and embeddings
+openai
+tiktoken
+
+# Utilities
+python-dotenv
+tenacity
+httpx
+numpy
+loguru
+markdown
+bleach
+mermaid-cli
+msgpack
+
+# Testing
+pytest
+pytest-asyncio
+
+# Development
+black
+isort
+flake8
+mypy

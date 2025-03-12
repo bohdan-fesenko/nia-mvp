@@ -1,0 +1,835 @@
+2025-03-12 08:16:14 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:16:14 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:16:14 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:16:14 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:16:20 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:20 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:20 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:21 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:21 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:21 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:41 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:41 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:41 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:42 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:42 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:42 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:44 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:44 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:44 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:47 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:47 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:47 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:51 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:51 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:51 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:51 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:51 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:51 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:52 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:52 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:52 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:54 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:54 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:54 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:56 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:56 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:56 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:56 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:56 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:56 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:56 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:56 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:56 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:57 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:57 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:57 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:59 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:59 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:59 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:16:59 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:16:59 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:16:59 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:00 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:00 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:00 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:01 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:01 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:01 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:03 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:03 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:03 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:04 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:04 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:04 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:09 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:09 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:09 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:11 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:11 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:11 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:14 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:14 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:14 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:18 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:18 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:18 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:27 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:27 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:27 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:30 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:17:30 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:17:30 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:17:30 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:17:30 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:17:32 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:17:32 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:17:32 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:17:32 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:17:32 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:32 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:32 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:33 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:33 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:33 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:41 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:17:41 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:17:41 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:17:42 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:17:42 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:17:42 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:17:42 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:17:42 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:18:32 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:18:33 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:18:33 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:18:33 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:18:33 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:18:33 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:18:33 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:18:39 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:18:39 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:18:39 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:18:52 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:18:52 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:18:52 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:19:02 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:19:02 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:19:02 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:19:15 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:19:15 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:19:15 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:19:47 | WARNING  | src.app.api.routes.websocket:get_websocket_user:53 - No authentication token provided
+2025-03-12 08:19:47 | ERROR    | src.app.api.routes.websocket:get_websocket_user:72 - Authentication error: 
+2025-03-12 08:19:47 | ERROR    | src.app.api.routes.websocket:get_websocket_user:77 - Error closing WebSocket: Cannot call "send" once a close message has been sent.
+2025-03-12 08:20:17 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 028d47f3-05ca-4219-a9d1-14c914c45105 (User: dev_user)
+2025-03-12 08:20:18 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 23346154-e4a2-46a7-b266-c6c0066b12a0 (User: dev_user)
+2025-03-12 08:20:25 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: agent:question
+2025-03-12 08:20:59 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 028d47f3-05ca-4219-a9d1-14c914c45105 (User: dev_user)
+2025-03-12 08:20:59 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c0a78c43-e7af-4ad7-9894-dd521cd8af65 (User: dev_user)
+2025-03-12 08:21:00 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 23346154-e4a2-46a7-b266-c6c0066b12a0 (User: dev_user)
+2025-03-12 08:21:00 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c924fe9f-55e2-4c8f-99a6-f34cefc1a20e (User: dev_user)
+2025-03-12 08:21:08 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: agent:approval:request
+2025-03-12 08:21:11 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: chat:priority:message
+2025-03-12 08:21:12 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: document:diff
+2025-03-12 08:21:20 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: document:diff
+2025-03-12 08:21:21 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: document:diff
+2025-03-12 08:21:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c924fe9f-55e2-4c8f-99a6-f34cefc1a20e subscribed to document demo-document-123
+2025-03-12 08:21:23 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: test:message
+2025-03-12 08:21:33 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c924fe9f-55e2-4c8f-99a6-f34cefc1a20e subscribed to document demo-document-123e
+2025-03-12 08:21:33 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c924fe9f-55e2-4c8f-99a6-f34cefc1a20e subscribed to document demo-document-123er
+2025-03-12 08:21:34 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c924fe9f-55e2-4c8f-99a6-f34cefc1a20e subscribed to document demo-document-123ere
+2025-03-12 08:21:34 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: document:diff
+2025-03-12 08:21:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c0a78c43-e7af-4ad7-9894-dd521cd8af65 (User: dev_user)
+2025-03-12 08:21:39 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ddf7cda0-ad31-4d20-bcc6-3b9cbf2dd5ca (User: dev_user)
+2025-03-12 08:21:40 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c924fe9f-55e2-4c8f-99a6-f34cefc1a20e (User: dev_user)
+2025-03-12 08:21:40 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: be082c0c-c1e2-42d9-93c5-d627584275c1 (User: dev_user)
+2025-03-12 08:21:40 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection be082c0c-c1e2-42d9-93c5-d627584275c1 subscribed to document demo-document-123
+2025-03-12 08:21:40 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection be082c0c-c1e2-42d9-93c5-d627584275c1 subscribed to document demo-document-123e
+2025-03-12 08:21:40 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection be082c0c-c1e2-42d9-93c5-d627584275c1 subscribed to document demo-document-123er
+2025-03-12 08:21:40 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection be082c0c-c1e2-42d9-93c5-d627584275c1 subscribed to document demo-document-123ere
+2025-03-12 08:21:43 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: agent:approval:request
+2025-03-12 08:21:43 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: agent:question
+2025-03-12 08:22:20 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ddf7cda0-ad31-4d20-bcc6-3b9cbf2dd5ca (User: dev_user)
+2025-03-12 08:22:21 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 171bac1e-2712-4182-b2ac-72915b3b495e (User: dev_user)
+2025-03-12 08:22:21 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: be082c0c-c1e2-42d9-93c5-d627584275c1 (User: dev_user)
+2025-03-12 08:22:21 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 6930a9a8-e562-4c44-96ba-5da480a30d11 (User: dev_user)
+2025-03-12 08:22:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6930a9a8-e562-4c44-96ba-5da480a30d11 subscribed to document demo-document-123
+2025-03-12 08:22:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6930a9a8-e562-4c44-96ba-5da480a30d11 subscribed to document demo-document-123e
+2025-03-12 08:22:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6930a9a8-e562-4c44-96ba-5da480a30d11 subscribed to document demo-document-123er
+2025-03-12 08:22:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6930a9a8-e562-4c44-96ba-5da480a30d11 subscribed to document demo-document-123ere
+2025-03-12 08:23:02 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 171bac1e-2712-4182-b2ac-72915b3b495e (User: dev_user)
+2025-03-12 08:23:02 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 52f97e80-5dc8-4e65-95ee-abb540ad57e0 (User: dev_user)
+2025-03-12 08:23:03 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 6930a9a8-e562-4c44-96ba-5da480a30d11 (User: dev_user)
+2025-03-12 08:23:03 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c551c0f2-9e2d-4aae-9c65-8c5584849229 (User: dev_user)
+2025-03-12 08:23:04 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c551c0f2-9e2d-4aae-9c65-8c5584849229 subscribed to document demo-document-123
+2025-03-12 08:23:04 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c551c0f2-9e2d-4aae-9c65-8c5584849229 subscribed to document demo-document-123e
+2025-03-12 08:23:04 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c551c0f2-9e2d-4aae-9c65-8c5584849229 subscribed to document demo-document-123er
+2025-03-12 08:23:04 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c551c0f2-9e2d-4aae-9c65-8c5584849229 subscribed to document demo-document-123ere
+2025-03-12 08:23:07 | WARNING  | src.app.api.routes.websocket:websocket_endpoint:189 - Unknown message type: test:message
+2025-03-12 08:23:44 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 52f97e80-5dc8-4e65-95ee-abb540ad57e0 (User: dev_user)
+2025-03-12 08:23:44 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f4ca0357-43a2-42d0-80e3-6df9276a0dd6 (User: dev_user)
+2025-03-12 08:23:46 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c551c0f2-9e2d-4aae-9c65-8c5584849229 (User: dev_user)
+2025-03-12 08:23:46 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 0fcbcaa0-1516-45c0-afa5-cac4e1463b1c (User: dev_user)
+2025-03-12 08:23:46 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fcbcaa0-1516-45c0-afa5-cac4e1463b1c subscribed to document demo-document-123
+2025-03-12 08:23:46 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fcbcaa0-1516-45c0-afa5-cac4e1463b1c subscribed to document demo-document-123e
+2025-03-12 08:23:46 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fcbcaa0-1516-45c0-afa5-cac4e1463b1c subscribed to document demo-document-123er
+2025-03-12 08:23:46 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fcbcaa0-1516-45c0-afa5-cac4e1463b1c subscribed to document demo-document-123ere
+2025-03-12 08:24:25 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f4ca0357-43a2-42d0-80e3-6df9276a0dd6 (User: dev_user)
+2025-03-12 08:24:25 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 805952d7-57e7-4851-ae12-1ad06007803c (User: dev_user)
+2025-03-12 08:24:27 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 6820260d-56d1-43a7-bd40-66e62d442cc9 (User: dev_user)
+2025-03-12 08:24:27 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 0fcbcaa0-1516-45c0-afa5-cac4e1463b1c (User: dev_user)
+2025-03-12 08:24:27 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6820260d-56d1-43a7-bd40-66e62d442cc9 subscribed to document demo-document-123
+2025-03-12 08:24:27 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6820260d-56d1-43a7-bd40-66e62d442cc9 subscribed to document demo-document-123e
+2025-03-12 08:24:27 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6820260d-56d1-43a7-bd40-66e62d442cc9 subscribed to document demo-document-123er
+2025-03-12 08:24:27 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6820260d-56d1-43a7-bd40-66e62d442cc9 subscribed to document demo-document-123ere
+2025-03-12 08:25:07 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 805952d7-57e7-4851-ae12-1ad06007803c (User: dev_user)
+2025-03-12 08:25:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 24c86f2a-8f95-4d49-9deb-8691aaf8dcbc (User: dev_user)
+2025-03-12 08:25:08 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 6820260d-56d1-43a7-bd40-66e62d442cc9 (User: dev_user)
+2025-03-12 08:25:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 83d0ec5a-7723-4d81-9024-d95ab109d8a7 (User: dev_user)
+2025-03-12 08:25:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83d0ec5a-7723-4d81-9024-d95ab109d8a7 subscribed to document demo-document-123
+2025-03-12 08:25:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83d0ec5a-7723-4d81-9024-d95ab109d8a7 subscribed to document demo-document-123e
+2025-03-12 08:25:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83d0ec5a-7723-4d81-9024-d95ab109d8a7 subscribed to document demo-document-123er
+2025-03-12 08:25:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83d0ec5a-7723-4d81-9024-d95ab109d8a7 subscribed to document demo-document-123ere
+2025-03-12 08:25:49 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 24c86f2a-8f95-4d49-9deb-8691aaf8dcbc (User: dev_user)
+2025-03-12 08:25:49 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 5c7c92f9-a960-479e-98e9-9f4c0ad0c773 (User: dev_user)
+2025-03-12 08:25:49 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 83d0ec5a-7723-4d81-9024-d95ab109d8a7 (User: dev_user)
+2025-03-12 08:25:50 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f51dc449-ee67-4408-a538-2e1e01c56402 (User: dev_user)
+2025-03-12 08:25:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f51dc449-ee67-4408-a538-2e1e01c56402 subscribed to document demo-document-123
+2025-03-12 08:25:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f51dc449-ee67-4408-a538-2e1e01c56402 subscribed to document demo-document-123e
+2025-03-12 08:25:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f51dc449-ee67-4408-a538-2e1e01c56402 subscribed to document demo-document-123er
+2025-03-12 08:25:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f51dc449-ee67-4408-a538-2e1e01c56402 subscribed to document demo-document-123ere
+2025-03-12 08:26:31 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 5c7c92f9-a960-479e-98e9-9f4c0ad0c773 (User: dev_user)
+2025-03-12 08:26:31 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 4d4fb588-67d3-476d-b875-56fbda10ac8f (User: dev_user)
+2025-03-12 08:26:31 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f51dc449-ee67-4408-a538-2e1e01c56402 (User: dev_user)
+2025-03-12 08:26:32 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 600ec3b1-a0fb-424c-b501-357f4e9fbfb3 (User: dev_user)
+2025-03-12 08:26:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 600ec3b1-a0fb-424c-b501-357f4e9fbfb3 subscribed to document demo-document-123
+2025-03-12 08:26:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 600ec3b1-a0fb-424c-b501-357f4e9fbfb3 subscribed to document demo-document-123e
+2025-03-12 08:26:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 600ec3b1-a0fb-424c-b501-357f4e9fbfb3 subscribed to document demo-document-123er
+2025-03-12 08:26:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 600ec3b1-a0fb-424c-b501-357f4e9fbfb3 subscribed to document demo-document-123ere
+2025-03-12 08:27:13 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 4d4fb588-67d3-476d-b875-56fbda10ac8f (User: dev_user)
+2025-03-12 08:27:13 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 600ec3b1-a0fb-424c-b501-357f4e9fbfb3 (User: dev_user)
+2025-03-12 08:27:13 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 82fc4001-b3a0-4872-b235-7fc566c4944d (User: dev_user)
+2025-03-12 08:27:14 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 46733994-fdd5-4142-8a6f-1203844cb44f (User: dev_user)
+2025-03-12 08:27:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 46733994-fdd5-4142-8a6f-1203844cb44f subscribed to document demo-document-123
+2025-03-12 08:27:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 46733994-fdd5-4142-8a6f-1203844cb44f subscribed to document demo-document-123e
+2025-03-12 08:27:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 46733994-fdd5-4142-8a6f-1203844cb44f subscribed to document demo-document-123er
+2025-03-12 08:27:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 46733994-fdd5-4142-8a6f-1203844cb44f subscribed to document demo-document-123ere
+2025-03-12 08:27:56 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: deb80e35-9542-40e1-ac99-ff19f4a59c91 (User: dev_user)
+2025-03-12 08:27:56 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 82fc4001-b3a0-4872-b235-7fc566c4944d (User: dev_user)
+2025-03-12 08:27:56 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 46733994-fdd5-4142-8a6f-1203844cb44f (User: dev_user)
+2025-03-12 08:27:56 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: a49d0228-a936-4538-ba44-ecef68c3ba9c (User: dev_user)
+2025-03-12 08:27:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection a49d0228-a936-4538-ba44-ecef68c3ba9c subscribed to document demo-document-123
+2025-03-12 08:27:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection a49d0228-a936-4538-ba44-ecef68c3ba9c subscribed to document demo-document-123e
+2025-03-12 08:27:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection a49d0228-a936-4538-ba44-ecef68c3ba9c subscribed to document demo-document-123er
+2025-03-12 08:27:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection a49d0228-a936-4538-ba44-ecef68c3ba9c subscribed to document demo-document-123ere
+2025-03-12 08:28:37 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: deb80e35-9542-40e1-ac99-ff19f4a59c91 (User: dev_user)
+2025-03-12 08:28:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: cb206f9b-dde8-48a6-8919-2c6f1a8ac3ad (User: dev_user)
+2025-03-12 08:28:37 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: a49d0228-a936-4538-ba44-ecef68c3ba9c (User: dev_user)
+2025-03-12 08:28:38 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: fbb099da-4a8a-4487-8068-ea18dc56a02e (User: dev_user)
+2025-03-12 08:28:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection fbb099da-4a8a-4487-8068-ea18dc56a02e subscribed to document demo-document-123
+2025-03-12 08:28:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection fbb099da-4a8a-4487-8068-ea18dc56a02e subscribed to document demo-document-123e
+2025-03-12 08:28:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection fbb099da-4a8a-4487-8068-ea18dc56a02e subscribed to document demo-document-123er
+2025-03-12 08:28:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection fbb099da-4a8a-4487-8068-ea18dc56a02e subscribed to document demo-document-123ere
+2025-03-12 08:29:19 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: cb206f9b-dde8-48a6-8919-2c6f1a8ac3ad (User: dev_user)
+2025-03-12 08:29:19 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c09c7a37-c6fe-425d-9a02-ae0cb88deb9a (User: dev_user)
+2025-03-12 08:29:19 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: fbb099da-4a8a-4487-8068-ea18dc56a02e (User: dev_user)
+2025-03-12 08:29:20 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 12927e6d-6c4c-45b7-811b-0bc4d37cd99e (User: dev_user)
+2025-03-12 08:29:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 12927e6d-6c4c-45b7-811b-0bc4d37cd99e subscribed to document demo-document-123
+2025-03-12 08:29:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 12927e6d-6c4c-45b7-811b-0bc4d37cd99e subscribed to document demo-document-123e
+2025-03-12 08:29:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 12927e6d-6c4c-45b7-811b-0bc4d37cd99e subscribed to document demo-document-123er
+2025-03-12 08:29:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 12927e6d-6c4c-45b7-811b-0bc4d37cd99e subscribed to document demo-document-123ere
+2025-03-12 08:30:02 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 416cdc79-7714-47f2-b155-22e7207a56c0 (User: dev_user)
+2025-03-12 08:30:02 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c09c7a37-c6fe-425d-9a02-ae0cb88deb9a (User: dev_user)
+2025-03-12 08:30:02 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 12927e6d-6c4c-45b7-811b-0bc4d37cd99e (User: dev_user)
+2025-03-12 08:30:02 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 35e6f7d3-4344-470f-a5b9-aaaeeb4ac4da (User: dev_user)
+2025-03-12 08:30:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 35e6f7d3-4344-470f-a5b9-aaaeeb4ac4da subscribed to document demo-document-123
+2025-03-12 08:30:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 35e6f7d3-4344-470f-a5b9-aaaeeb4ac4da subscribed to document demo-document-123e
+2025-03-12 08:30:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 35e6f7d3-4344-470f-a5b9-aaaeeb4ac4da subscribed to document demo-document-123er
+2025-03-12 08:30:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 35e6f7d3-4344-470f-a5b9-aaaeeb4ac4da subscribed to document demo-document-123ere
+2025-03-12 08:30:43 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 416cdc79-7714-47f2-b155-22e7207a56c0 (User: dev_user)
+2025-03-12 08:30:44 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 68e6d2fd-3e35-4999-acd3-244de37436ef (User: dev_user)
+2025-03-12 08:30:44 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 35e6f7d3-4344-470f-a5b9-aaaeeb4ac4da (User: dev_user)
+2025-03-12 08:30:44 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 6293aff0-c191-43b1-bf4f-ba1bb5a03e69 (User: dev_user)
+2025-03-12 08:30:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6293aff0-c191-43b1-bf4f-ba1bb5a03e69 subscribed to document demo-document-123
+2025-03-12 08:30:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6293aff0-c191-43b1-bf4f-ba1bb5a03e69 subscribed to document demo-document-123e
+2025-03-12 08:30:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6293aff0-c191-43b1-bf4f-ba1bb5a03e69 subscribed to document demo-document-123er
+2025-03-12 08:30:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 6293aff0-c191-43b1-bf4f-ba1bb5a03e69 subscribed to document demo-document-123ere
+2025-03-12 08:31:25 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 68e6d2fd-3e35-4999-acd3-244de37436ef (User: dev_user)
+2025-03-12 08:31:25 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 298b1b2c-70c9-4e0a-ac65-8e1ad62dc9d1 (User: dev_user)
+2025-03-12 08:31:25 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 6293aff0-c191-43b1-bf4f-ba1bb5a03e69 (User: dev_user)
+2025-03-12 08:31:26 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8dce6938-6fcd-48fe-ae06-6eefd158268d (User: dev_user)
+2025-03-12 08:31:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8dce6938-6fcd-48fe-ae06-6eefd158268d subscribed to document demo-document-123
+2025-03-12 08:31:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8dce6938-6fcd-48fe-ae06-6eefd158268d subscribed to document demo-document-123e
+2025-03-12 08:31:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8dce6938-6fcd-48fe-ae06-6eefd158268d subscribed to document demo-document-123er
+2025-03-12 08:31:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8dce6938-6fcd-48fe-ae06-6eefd158268d subscribed to document demo-document-123ere
+2025-03-12 08:32:07 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 298b1b2c-70c9-4e0a-ac65-8e1ad62dc9d1 (User: dev_user)
+2025-03-12 08:32:07 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8dce6938-6fcd-48fe-ae06-6eefd158268d (User: dev_user)
+2025-03-12 08:32:07 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 12519c28-baf9-4ddb-8f89-81eb6379f2e6 (User: dev_user)
+2025-03-12 08:32:08 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ea5a0937-60e3-46d6-830d-459eae66ad83 (User: dev_user)
+2025-03-12 08:32:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ea5a0937-60e3-46d6-830d-459eae66ad83 subscribed to document demo-document-123
+2025-03-12 08:32:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ea5a0937-60e3-46d6-830d-459eae66ad83 subscribed to document demo-document-123e
+2025-03-12 08:32:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ea5a0937-60e3-46d6-830d-459eae66ad83 subscribed to document demo-document-123er
+2025-03-12 08:32:08 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ea5a0937-60e3-46d6-830d-459eae66ad83 subscribed to document demo-document-123ere
+2025-03-12 08:32:49 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 12519c28-baf9-4ddb-8f89-81eb6379f2e6 (User: dev_user)
+2025-03-12 08:32:49 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 349376a3-5388-4c58-b414-01729fe6609d (User: dev_user)
+2025-03-12 08:32:49 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ea5a0937-60e3-46d6-830d-459eae66ad83 (User: dev_user)
+2025-03-12 08:32:50 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8afa5628-30f4-4f7b-ab24-aff6a77422e3 (User: dev_user)
+2025-03-12 08:32:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8afa5628-30f4-4f7b-ab24-aff6a77422e3 subscribed to document demo-document-123
+2025-03-12 08:32:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8afa5628-30f4-4f7b-ab24-aff6a77422e3 subscribed to document demo-document-123e
+2025-03-12 08:32:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8afa5628-30f4-4f7b-ab24-aff6a77422e3 subscribed to document demo-document-123er
+2025-03-12 08:32:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8afa5628-30f4-4f7b-ab24-aff6a77422e3 subscribed to document demo-document-123ere
+2025-03-12 08:33:31 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 349376a3-5388-4c58-b414-01729fe6609d (User: dev_user)
+2025-03-12 08:33:31 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 7ef5351d-b349-4774-98b8-c6ac7865e45d (User: dev_user)
+2025-03-12 08:33:31 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8afa5628-30f4-4f7b-ab24-aff6a77422e3 (User: dev_user)
+2025-03-12 08:33:32 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: df3c712e-6d82-4fd7-aefe-f9eb49becead (User: dev_user)
+2025-03-12 08:33:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection df3c712e-6d82-4fd7-aefe-f9eb49becead subscribed to document demo-document-123
+2025-03-12 08:33:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection df3c712e-6d82-4fd7-aefe-f9eb49becead subscribed to document demo-document-123e
+2025-03-12 08:33:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection df3c712e-6d82-4fd7-aefe-f9eb49becead subscribed to document demo-document-123er
+2025-03-12 08:33:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection df3c712e-6d82-4fd7-aefe-f9eb49becead subscribed to document demo-document-123ere
+2025-03-12 08:34:13 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 7ef5351d-b349-4774-98b8-c6ac7865e45d (User: dev_user)
+2025-03-12 08:34:13 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c9f3f0e7-86ec-436c-b8a2-703bd0ac27f2 (User: dev_user)
+2025-03-12 08:34:14 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: df3c712e-6d82-4fd7-aefe-f9eb49becead (User: dev_user)
+2025-03-12 08:34:14 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: e09e02d4-f7b2-4a85-ac81-38ffa81b4916 (User: dev_user)
+2025-03-12 08:34:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e09e02d4-f7b2-4a85-ac81-38ffa81b4916 subscribed to document demo-document-123
+2025-03-12 08:34:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e09e02d4-f7b2-4a85-ac81-38ffa81b4916 subscribed to document demo-document-123e
+2025-03-12 08:34:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e09e02d4-f7b2-4a85-ac81-38ffa81b4916 subscribed to document demo-document-123er
+2025-03-12 08:34:14 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e09e02d4-f7b2-4a85-ac81-38ffa81b4916 subscribed to document demo-document-123ere
+2025-03-12 08:34:55 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c9f3f0e7-86ec-436c-b8a2-703bd0ac27f2 (User: dev_user)
+2025-03-12 08:34:56 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8da5dbbe-0a67-4e06-adea-d764d805b8ca (User: dev_user)
+2025-03-12 08:34:56 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: e09e02d4-f7b2-4a85-ac81-38ffa81b4916 (User: dev_user)
+2025-03-12 08:34:56 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 153fa1f2-5803-4655-a3b4-a2f66b15e290 (User: dev_user)
+2025-03-12 08:34:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 153fa1f2-5803-4655-a3b4-a2f66b15e290 subscribed to document demo-document-123
+2025-03-12 08:34:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 153fa1f2-5803-4655-a3b4-a2f66b15e290 subscribed to document demo-document-123e
+2025-03-12 08:34:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 153fa1f2-5803-4655-a3b4-a2f66b15e290 subscribed to document demo-document-123er
+2025-03-12 08:34:56 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 153fa1f2-5803-4655-a3b4-a2f66b15e290 subscribed to document demo-document-123ere
+2025-03-12 08:35:37 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8da5dbbe-0a67-4e06-adea-d764d805b8ca (User: dev_user)
+2025-03-12 08:35:37 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 40ad24ed-be49-44de-8b9e-ea5e8d6c8887 (User: dev_user)
+2025-03-12 08:35:37 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 153fa1f2-5803-4655-a3b4-a2f66b15e290 (User: dev_user)
+2025-03-12 08:35:38 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: d60cc4ea-df09-4ed0-aac2-4d0bb7ae76f1 (User: dev_user)
+2025-03-12 08:35:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d60cc4ea-df09-4ed0-aac2-4d0bb7ae76f1 subscribed to document demo-document-123
+2025-03-12 08:35:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d60cc4ea-df09-4ed0-aac2-4d0bb7ae76f1 subscribed to document demo-document-123e
+2025-03-12 08:35:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d60cc4ea-df09-4ed0-aac2-4d0bb7ae76f1 subscribed to document demo-document-123er
+2025-03-12 08:35:38 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d60cc4ea-df09-4ed0-aac2-4d0bb7ae76f1 subscribed to document demo-document-123ere
+2025-03-12 08:36:19 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 40ad24ed-be49-44de-8b9e-ea5e8d6c8887 (User: dev_user)
+2025-03-12 08:36:19 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 2f1fa69b-0621-4918-96f0-dd3c2556d940 (User: dev_user)
+2025-03-12 08:36:19 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: d60cc4ea-df09-4ed0-aac2-4d0bb7ae76f1 (User: dev_user)
+2025-03-12 08:36:20 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ba0a2b94-4c03-4683-9786-8c2c71220048 (User: dev_user)
+2025-03-12 08:36:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ba0a2b94-4c03-4683-9786-8c2c71220048 subscribed to document demo-document-123
+2025-03-12 08:36:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ba0a2b94-4c03-4683-9786-8c2c71220048 subscribed to document demo-document-123e
+2025-03-12 08:36:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ba0a2b94-4c03-4683-9786-8c2c71220048 subscribed to document demo-document-123er
+2025-03-12 08:36:20 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ba0a2b94-4c03-4683-9786-8c2c71220048 subscribed to document demo-document-123ere
+2025-03-12 08:37:01 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 2f1fa69b-0621-4918-96f0-dd3c2556d940 (User: dev_user)
+2025-03-12 08:37:01 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: b80ffde0-eea7-4d2c-9795-536809d6803a (User: dev_user)
+2025-03-12 08:37:01 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ba0a2b94-4c03-4683-9786-8c2c71220048 (User: dev_user)
+2025-03-12 08:37:02 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 69f2e380-6a76-418d-ad6d-5fa85cf6a4b4 (User: dev_user)
+2025-03-12 08:37:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 69f2e380-6a76-418d-ad6d-5fa85cf6a4b4 subscribed to document demo-document-123
+2025-03-12 08:37:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 69f2e380-6a76-418d-ad6d-5fa85cf6a4b4 subscribed to document demo-document-123e
+2025-03-12 08:37:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 69f2e380-6a76-418d-ad6d-5fa85cf6a4b4 subscribed to document demo-document-123er
+2025-03-12 08:37:02 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 69f2e380-6a76-418d-ad6d-5fa85cf6a4b4 subscribed to document demo-document-123ere
+2025-03-12 08:37:43 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: b80ffde0-eea7-4d2c-9795-536809d6803a (User: dev_user)
+2025-03-12 08:37:43 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 69f2e380-6a76-418d-ad6d-5fa85cf6a4b4 (User: dev_user)
+2025-03-12 08:37:43 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 4597eea4-f154-49c1-84ca-7aef3e455eb6 (User: dev_user)
+2025-03-12 08:37:44 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: af5e13dc-8dd2-474a-a256-e34b2cd42629 (User: dev_user)
+2025-03-12 08:37:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection af5e13dc-8dd2-474a-a256-e34b2cd42629 subscribed to document demo-document-123
+2025-03-12 08:37:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection af5e13dc-8dd2-474a-a256-e34b2cd42629 subscribed to document demo-document-123e
+2025-03-12 08:37:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection af5e13dc-8dd2-474a-a256-e34b2cd42629 subscribed to document demo-document-123er
+2025-03-12 08:37:44 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection af5e13dc-8dd2-474a-a256-e34b2cd42629 subscribed to document demo-document-123ere
+2025-03-12 08:38:25 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 4597eea4-f154-49c1-84ca-7aef3e455eb6 (User: dev_user)
+2025-03-12 08:38:25 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: fe0a0e8e-f941-48dc-a015-8c12f5d41455 (User: dev_user)
+2025-03-12 08:38:25 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: af5e13dc-8dd2-474a-a256-e34b2cd42629 (User: dev_user)
+2025-03-12 08:38:26 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 0fef2af6-a0eb-4786-9522-1a3e20932225 (User: dev_user)
+2025-03-12 08:38:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fef2af6-a0eb-4786-9522-1a3e20932225 subscribed to document demo-document-123
+2025-03-12 08:38:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fef2af6-a0eb-4786-9522-1a3e20932225 subscribed to document demo-document-123e
+2025-03-12 08:38:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fef2af6-a0eb-4786-9522-1a3e20932225 subscribed to document demo-document-123er
+2025-03-12 08:38:26 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 0fef2af6-a0eb-4786-9522-1a3e20932225 subscribed to document demo-document-123ere
+2025-03-12 08:39:03 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 0fef2af6-a0eb-4786-9522-1a3e20932225 (User: dev_user)
+2025-03-12 08:39:03 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: fe0a0e8e-f941-48dc-a015-8c12f5d41455 (User: dev_user)
+2025-03-12 08:39:03 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:39:03 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:39:03 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:39:03 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:39:03 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:39:05 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:39:05 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:39:05 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:39:05 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:39:05 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 862f59de-29f6-4439-9abf-5e507eb903db (User: dev_user)
+2025-03-12 08:39:05 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 862f59de-29f6-4439-9abf-5e507eb903db subscribed to document demo-document-123
+2025-03-12 08:39:05 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 862f59de-29f6-4439-9abf-5e507eb903db subscribed to document demo-document-123e
+2025-03-12 08:39:05 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 862f59de-29f6-4439-9abf-5e507eb903db subscribed to document demo-document-123er
+2025-03-12 08:39:05 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 862f59de-29f6-4439-9abf-5e507eb903db subscribed to document demo-document-123ere
+2025-03-12 08:39:05 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 733cf3b9-dc90-444e-9d6c-ed04c195f9b6 (User: dev_user)
+2025-03-12 08:39:28 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 733cf3b9-dc90-444e-9d6c-ed04c195f9b6 (User: dev_user)
+2025-03-12 08:39:28 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 862f59de-29f6-4439-9abf-5e507eb903db (User: dev_user)
+2025-03-12 08:39:28 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:39:28 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:39:28 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:39:28 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:39:28 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:39:29 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:39:29 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:39:29 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:39:29 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:39:29 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 81d33764-be43-4c37-a7c5-ac9724741cce (User: dev_user)
+2025-03-12 08:39:30 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c1076a1f-0d40-4ac0-9106-f6e42905b11a (User: dev_user)
+2025-03-12 08:39:30 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c1076a1f-0d40-4ac0-9106-f6e42905b11a subscribed to document demo-document-123
+2025-03-12 08:39:30 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c1076a1f-0d40-4ac0-9106-f6e42905b11a subscribed to document demo-document-123e
+2025-03-12 08:39:30 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c1076a1f-0d40-4ac0-9106-f6e42905b11a subscribed to document demo-document-123er
+2025-03-12 08:39:30 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c1076a1f-0d40-4ac0-9106-f6e42905b11a subscribed to document demo-document-123ere
+2025-03-12 08:39:33 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c1076a1f-0d40-4ac0-9106-f6e42905b11a (User: dev_user)
+2025-03-12 08:39:33 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 81d33764-be43-4c37-a7c5-ac9724741cce (User: dev_user)
+2025-03-12 08:39:33 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:39:33 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:39:33 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:39:33 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:39:33 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:39:34 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:39:34 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:39:34 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:39:34 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:39:34 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 80c10e08-1a22-4689-971e-73372a18a07f (User: dev_user)
+2025-03-12 08:39:35 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ce50c65a-76fa-41bc-8361-fdf912af4863 (User: dev_user)
+2025-03-12 08:39:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ce50c65a-76fa-41bc-8361-fdf912af4863 subscribed to document demo-document-123
+2025-03-12 08:39:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ce50c65a-76fa-41bc-8361-fdf912af4863 subscribed to document demo-document-123e
+2025-03-12 08:39:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ce50c65a-76fa-41bc-8361-fdf912af4863 subscribed to document demo-document-123er
+2025-03-12 08:39:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ce50c65a-76fa-41bc-8361-fdf912af4863 subscribed to document demo-document-123ere
+2025-03-12 08:40:16 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 80c10e08-1a22-4689-971e-73372a18a07f (User: dev_user)
+2025-03-12 08:40:16 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8c8b9952-a549-45ed-acb3-fd7a53366925 (User: dev_user)
+2025-03-12 08:40:16 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ce50c65a-76fa-41bc-8361-fdf912af4863 (User: dev_user)
+2025-03-12 08:40:17 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 45321a0b-0354-41b6-9a8b-aa551b5f3f90 (User: dev_user)
+2025-03-12 08:40:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 45321a0b-0354-41b6-9a8b-aa551b5f3f90 subscribed to document demo-document-123
+2025-03-12 08:40:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 45321a0b-0354-41b6-9a8b-aa551b5f3f90 subscribed to document demo-document-123e
+2025-03-12 08:40:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 45321a0b-0354-41b6-9a8b-aa551b5f3f90 subscribed to document demo-document-123er
+2025-03-12 08:40:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 45321a0b-0354-41b6-9a8b-aa551b5f3f90 subscribed to document demo-document-123ere
+2025-03-12 08:40:58 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8c8b9952-a549-45ed-acb3-fd7a53366925 (User: dev_user)
+2025-03-12 08:40:58 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 92e0aef0-3fc3-4bea-aff6-dec28e99f54c (User: dev_user)
+2025-03-12 08:40:58 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 45321a0b-0354-41b6-9a8b-aa551b5f3f90 (User: dev_user)
+2025-03-12 08:40:59 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 70ad5e4e-c095-47a1-8400-c1ee2e127079 (User: dev_user)
+2025-03-12 08:40:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 70ad5e4e-c095-47a1-8400-c1ee2e127079 subscribed to document demo-document-123
+2025-03-12 08:40:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 70ad5e4e-c095-47a1-8400-c1ee2e127079 subscribed to document demo-document-123e
+2025-03-12 08:40:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 70ad5e4e-c095-47a1-8400-c1ee2e127079 subscribed to document demo-document-123er
+2025-03-12 08:40:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 70ad5e4e-c095-47a1-8400-c1ee2e127079 subscribed to document demo-document-123ere
+2025-03-12 08:41:32 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 92e0aef0-3fc3-4bea-aff6-dec28e99f54c (User: dev_user)
+2025-03-12 08:41:32 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 70ad5e4e-c095-47a1-8400-c1ee2e127079 (User: dev_user)
+2025-03-12 08:41:33 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:41:33 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:41:33 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:41:33 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:41:33 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:41:34 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:41:34 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:41:34 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:41:34 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:41:34 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 97582140-edb1-4391-9455-799f80bb0ca5 (User: dev_user)
+2025-03-12 08:41:35 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f9305e8d-3b27-4bb6-bfda-c8307c9150ac (User: dev_user)
+2025-03-12 08:41:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f9305e8d-3b27-4bb6-bfda-c8307c9150ac subscribed to document demo-document-123
+2025-03-12 08:41:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f9305e8d-3b27-4bb6-bfda-c8307c9150ac subscribed to document demo-document-123e
+2025-03-12 08:41:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f9305e8d-3b27-4bb6-bfda-c8307c9150ac subscribed to document demo-document-123er
+2025-03-12 08:41:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f9305e8d-3b27-4bb6-bfda-c8307c9150ac subscribed to document demo-document-123ere
+2025-03-12 08:42:16 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 97582140-edb1-4391-9455-799f80bb0ca5 (User: dev_user)
+2025-03-12 08:42:16 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 43656004-bc4d-47f3-905c-d7a69bae71ab (User: dev_user)
+2025-03-12 08:42:16 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f9305e8d-3b27-4bb6-bfda-c8307c9150ac (User: dev_user)
+2025-03-12 08:42:17 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: b032ec8b-7705-4a73-b4ba-143aef80fca2 (User: dev_user)
+2025-03-12 08:42:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b032ec8b-7705-4a73-b4ba-143aef80fca2 subscribed to document demo-document-123
+2025-03-12 08:42:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b032ec8b-7705-4a73-b4ba-143aef80fca2 subscribed to document demo-document-123e
+2025-03-12 08:42:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b032ec8b-7705-4a73-b4ba-143aef80fca2 subscribed to document demo-document-123er
+2025-03-12 08:42:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b032ec8b-7705-4a73-b4ba-143aef80fca2 subscribed to document demo-document-123ere
+2025-03-12 08:42:58 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 43656004-bc4d-47f3-905c-d7a69bae71ab (User: dev_user)
+2025-03-12 08:42:58 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 4736fbba-ee55-4256-9592-5c6707735652 (User: dev_user)
+2025-03-12 08:42:58 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: b032ec8b-7705-4a73-b4ba-143aef80fca2 (User: dev_user)
+2025-03-12 08:42:59 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 00017c18-0f95-45d8-8e9c-b5b47d4b47c7 (User: dev_user)
+2025-03-12 08:42:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 00017c18-0f95-45d8-8e9c-b5b47d4b47c7 subscribed to document demo-document-123
+2025-03-12 08:42:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 00017c18-0f95-45d8-8e9c-b5b47d4b47c7 subscribed to document demo-document-123e
+2025-03-12 08:42:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 00017c18-0f95-45d8-8e9c-b5b47d4b47c7 subscribed to document demo-document-123er
+2025-03-12 08:42:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 00017c18-0f95-45d8-8e9c-b5b47d4b47c7 subscribed to document demo-document-123ere
+2025-03-12 08:43:40 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 4736fbba-ee55-4256-9592-5c6707735652 (User: dev_user)
+2025-03-12 08:43:40 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8e0ebdeb-5b28-43c5-8363-8dd47552b30e (User: dev_user)
+2025-03-12 08:43:40 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 00017c18-0f95-45d8-8e9c-b5b47d4b47c7 (User: dev_user)
+2025-03-12 08:43:41 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: b5898853-62ae-43c1-8b96-693b0b4d2c01 (User: dev_user)
+2025-03-12 08:43:41 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b5898853-62ae-43c1-8b96-693b0b4d2c01 subscribed to document demo-document-123
+2025-03-12 08:43:41 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b5898853-62ae-43c1-8b96-693b0b4d2c01 subscribed to document demo-document-123e
+2025-03-12 08:43:41 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b5898853-62ae-43c1-8b96-693b0b4d2c01 subscribed to document demo-document-123er
+2025-03-12 08:43:41 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b5898853-62ae-43c1-8b96-693b0b4d2c01 subscribed to document demo-document-123ere
+2025-03-12 08:44:22 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8e0ebdeb-5b28-43c5-8363-8dd47552b30e (User: dev_user)
+2025-03-12 08:44:22 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c61b13cd-95f0-485b-b920-fd4f7b49cf16 (User: dev_user)
+2025-03-12 08:44:22 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: b5898853-62ae-43c1-8b96-693b0b4d2c01 (User: dev_user)
+2025-03-12 08:44:23 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8b1dca26-7fc4-41e5-b6c9-72b2e8f4aad7 (User: dev_user)
+2025-03-12 08:44:23 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8b1dca26-7fc4-41e5-b6c9-72b2e8f4aad7 subscribed to document demo-document-123
+2025-03-12 08:44:23 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8b1dca26-7fc4-41e5-b6c9-72b2e8f4aad7 subscribed to document demo-document-123e
+2025-03-12 08:44:23 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8b1dca26-7fc4-41e5-b6c9-72b2e8f4aad7 subscribed to document demo-document-123er
+2025-03-12 08:44:23 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8b1dca26-7fc4-41e5-b6c9-72b2e8f4aad7 subscribed to document demo-document-123ere
+2025-03-12 08:44:30 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c61b13cd-95f0-485b-b920-fd4f7b49cf16 (User: dev_user)
+2025-03-12 08:44:30 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8b1dca26-7fc4-41e5-b6c9-72b2e8f4aad7 (User: dev_user)
+2025-03-12 08:44:30 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:44:30 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:44:30 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:44:30 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:44:30 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:44:31 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:44:32 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:44:32 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:44:32 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:44:32 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 4f56c213-383c-492c-8f79-90cf362b472d (User: dev_user)
+2025-03-12 08:44:32 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 7933ea73-4e6f-47fe-8466-f4c22189e157 (User: dev_user)
+2025-03-12 08:44:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 7933ea73-4e6f-47fe-8466-f4c22189e157 subscribed to document demo-document-123
+2025-03-12 08:44:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 7933ea73-4e6f-47fe-8466-f4c22189e157 subscribed to document demo-document-123e
+2025-03-12 08:44:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 7933ea73-4e6f-47fe-8466-f4c22189e157 subscribed to document demo-document-123er
+2025-03-12 08:44:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 7933ea73-4e6f-47fe-8466-f4c22189e157 subscribed to document demo-document-123ere
+2025-03-12 08:44:48 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 7933ea73-4e6f-47fe-8466-f4c22189e157 (User: dev_user)
+2025-03-12 08:44:48 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 4f56c213-383c-492c-8f79-90cf362b472d (User: dev_user)
+2025-03-12 08:44:48 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:44:48 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:44:48 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:44:48 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:44:48 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:44:50 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:44:50 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:44:50 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:44:50 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:44:50 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8921b236-7328-47da-9f19-0c61af961bd7 (User: dev_user)
+2025-03-12 08:44:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8921b236-7328-47da-9f19-0c61af961bd7 subscribed to document demo-document-123
+2025-03-12 08:44:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8921b236-7328-47da-9f19-0c61af961bd7 subscribed to document demo-document-123e
+2025-03-12 08:44:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8921b236-7328-47da-9f19-0c61af961bd7 subscribed to document demo-document-123er
+2025-03-12 08:44:50 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8921b236-7328-47da-9f19-0c61af961bd7 subscribed to document demo-document-123ere
+2025-03-12 08:44:50 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ada81065-c5b4-4c38-8a2c-ff23eb0bb4e9 (User: dev_user)
+2025-03-12 08:45:32 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8921b236-7328-47da-9f19-0c61af961bd7 (User: dev_user)
+2025-03-12 08:45:32 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 51bbafef-1436-4db7-86a8-b30f510846c1 (User: dev_user)
+2025-03-12 08:45:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 51bbafef-1436-4db7-86a8-b30f510846c1 subscribed to document demo-document-123
+2025-03-12 08:45:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 51bbafef-1436-4db7-86a8-b30f510846c1 subscribed to document demo-document-123e
+2025-03-12 08:45:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 51bbafef-1436-4db7-86a8-b30f510846c1 subscribed to document demo-document-123er
+2025-03-12 08:45:32 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 51bbafef-1436-4db7-86a8-b30f510846c1 subscribed to document demo-document-123ere
+2025-03-12 08:45:32 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ada81065-c5b4-4c38-8a2c-ff23eb0bb4e9 (User: dev_user)
+2025-03-12 08:45:32 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 128a7626-5d04-4205-9bd2-fd4352765bf7 (User: dev_user)
+2025-03-12 08:46:13 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 51bbafef-1436-4db7-86a8-b30f510846c1 (User: dev_user)
+2025-03-12 08:46:13 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ffe39cec-5073-47bb-a29a-3735d69ef64e (User: dev_user)
+2025-03-12 08:46:13 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ffe39cec-5073-47bb-a29a-3735d69ef64e subscribed to document demo-document-123
+2025-03-12 08:46:13 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ffe39cec-5073-47bb-a29a-3735d69ef64e subscribed to document demo-document-123e
+2025-03-12 08:46:13 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ffe39cec-5073-47bb-a29a-3735d69ef64e subscribed to document demo-document-123er
+2025-03-12 08:46:13 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ffe39cec-5073-47bb-a29a-3735d69ef64e subscribed to document demo-document-123ere
+2025-03-12 08:46:14 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 128a7626-5d04-4205-9bd2-fd4352765bf7 (User: dev_user)
+2025-03-12 08:46:14 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 80f86b3c-04a5-4cdb-8933-9555cb5506d8 (User: dev_user)
+2025-03-12 08:46:34 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 80f86b3c-04a5-4cdb-8933-9555cb5506d8 (User: dev_user)
+2025-03-12 08:46:34 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ffe39cec-5073-47bb-a29a-3735d69ef64e (User: dev_user)
+2025-03-12 08:46:34 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:46:34 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:46:34 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:46:34 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:46:34 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:46:35 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:46:36 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:46:36 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:46:36 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:46:36 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 886cbf9b-d6a0-488c-bdf6-445e9db121f1 (User: dev_user)
+2025-03-12 08:46:36 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ab87e4db-10c4-4910-9f07-4ce2445928c2 (User: dev_user)
+2025-03-12 08:46:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ab87e4db-10c4-4910-9f07-4ce2445928c2 subscribed to document demo-document-123
+2025-03-12 08:46:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ab87e4db-10c4-4910-9f07-4ce2445928c2 subscribed to document demo-document-123e
+2025-03-12 08:46:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ab87e4db-10c4-4910-9f07-4ce2445928c2 subscribed to document demo-document-123er
+2025-03-12 08:46:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ab87e4db-10c4-4910-9f07-4ce2445928c2 subscribed to document demo-document-123ere
+2025-03-12 08:46:52 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ab87e4db-10c4-4910-9f07-4ce2445928c2 (User: dev_user)
+2025-03-12 08:46:52 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 886cbf9b-d6a0-488c-bdf6-445e9db121f1 (User: dev_user)
+2025-03-12 08:46:52 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:46:52 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:46:52 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:46:52 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:46:52 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:46:53 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:46:53 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:46:53 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:46:53 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:46:53 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: d0f2a27f-69be-4a00-9afd-81939beea1e5 (User: dev_user)
+2025-03-12 08:46:53 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d0f2a27f-69be-4a00-9afd-81939beea1e5 subscribed to document demo-document-123
+2025-03-12 08:46:53 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d0f2a27f-69be-4a00-9afd-81939beea1e5 subscribed to document demo-document-123e
+2025-03-12 08:46:53 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d0f2a27f-69be-4a00-9afd-81939beea1e5 subscribed to document demo-document-123er
+2025-03-12 08:46:53 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection d0f2a27f-69be-4a00-9afd-81939beea1e5 subscribed to document demo-document-123ere
+2025-03-12 08:46:54 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 70f19d00-3cec-4297-922b-4b430374b1c3 (User: dev_user)
+2025-03-12 08:47:35 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: d0f2a27f-69be-4a00-9afd-81939beea1e5 (User: dev_user)
+2025-03-12 08:47:35 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 2811675d-9b59-43e2-a75f-0b5e3d7366b8 (User: dev_user)
+2025-03-12 08:47:35 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 70f19d00-3cec-4297-922b-4b430374b1c3 (User: dev_user)
+2025-03-12 08:47:35 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2811675d-9b59-43e2-a75f-0b5e3d7366b8 subscribed to document demo-document-123
+2025-03-12 08:47:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2811675d-9b59-43e2-a75f-0b5e3d7366b8 subscribed to document demo-document-123e
+2025-03-12 08:47:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2811675d-9b59-43e2-a75f-0b5e3d7366b8 subscribed to document demo-document-123er
+2025-03-12 08:47:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2811675d-9b59-43e2-a75f-0b5e3d7366b8 subscribed to document demo-document-123ere
+2025-03-12 08:47:36 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: e56b7309-e165-41b7-9c1a-2ed10a09b14f (User: dev_user)
+2025-03-12 08:48:17 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 2811675d-9b59-43e2-a75f-0b5e3d7366b8 (User: dev_user)
+2025-03-12 08:48:18 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: ff8556c0-780d-482e-a3e0-dfa2f6d4b64c (User: dev_user)
+2025-03-12 08:48:18 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: e56b7309-e165-41b7-9c1a-2ed10a09b14f (User: dev_user)
+2025-03-12 08:48:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ff8556c0-780d-482e-a3e0-dfa2f6d4b64c subscribed to document demo-document-123
+2025-03-12 08:48:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ff8556c0-780d-482e-a3e0-dfa2f6d4b64c subscribed to document demo-document-123e
+2025-03-12 08:48:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ff8556c0-780d-482e-a3e0-dfa2f6d4b64c subscribed to document demo-document-123er
+2025-03-12 08:48:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection ff8556c0-780d-482e-a3e0-dfa2f6d4b64c subscribed to document demo-document-123ere
+2025-03-12 08:48:18 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: b86d6ed8-04eb-4eb7-a1e8-cc450db8963a (User: dev_user)
+2025-03-12 08:48:59 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: ff8556c0-780d-482e-a3e0-dfa2f6d4b64c (User: dev_user)
+2025-03-12 08:49:00 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 8215c517-a178-42f2-8846-332ad71d8473 (User: dev_user)
+2025-03-12 08:49:00 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: b86d6ed8-04eb-4eb7-a1e8-cc450db8963a (User: dev_user)
+2025-03-12 08:49:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8215c517-a178-42f2-8846-332ad71d8473 subscribed to document demo-document-123
+2025-03-12 08:49:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8215c517-a178-42f2-8846-332ad71d8473 subscribed to document demo-document-123e
+2025-03-12 08:49:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8215c517-a178-42f2-8846-332ad71d8473 subscribed to document demo-document-123er
+2025-03-12 08:49:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 8215c517-a178-42f2-8846-332ad71d8473 subscribed to document demo-document-123ere
+2025-03-12 08:49:00 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: da270632-9f63-465f-91f8-01c24f2b5691 (User: dev_user)
+2025-03-12 08:49:17 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 8215c517-a178-42f2-8846-332ad71d8473 (User: dev_user)
+2025-03-12 08:49:17 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: da270632-9f63-465f-91f8-01c24f2b5691 (User: dev_user)
+2025-03-12 08:49:17 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:49:17 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:49:17 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:49:17 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:49:17 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:49:18 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:49:18 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:49:18 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:49:18 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:49:19 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 276ac918-be27-4464-8b33-9fbfd8ac79dc (User: dev_user)
+2025-03-12 08:49:19 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 1ea77b6e-c66d-4afd-bda6-e4c7825841dd (User: dev_user)
+2025-03-12 08:49:19 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 1ea77b6e-c66d-4afd-bda6-e4c7825841dd subscribed to document demo-document-123
+2025-03-12 08:49:19 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 1ea77b6e-c66d-4afd-bda6-e4c7825841dd subscribed to document demo-document-123e
+2025-03-12 08:49:19 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 1ea77b6e-c66d-4afd-bda6-e4c7825841dd subscribed to document demo-document-123er
+2025-03-12 08:49:19 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 1ea77b6e-c66d-4afd-bda6-e4c7825841dd subscribed to document demo-document-123ere
+2025-03-12 08:50:00 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 276ac918-be27-4464-8b33-9fbfd8ac79dc (User: dev_user)
+2025-03-12 08:50:00 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 0cdac025-d8c3-40e0-9fde-2e198911a7c6 (User: dev_user)
+2025-03-12 08:50:00 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 1ea77b6e-c66d-4afd-bda6-e4c7825841dd (User: dev_user)
+2025-03-12 08:50:01 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c85a6c81-3667-4116-8f20-1d748494e7bb (User: dev_user)
+2025-03-12 08:50:01 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c85a6c81-3667-4116-8f20-1d748494e7bb subscribed to document demo-document-123
+2025-03-12 08:50:01 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c85a6c81-3667-4116-8f20-1d748494e7bb subscribed to document demo-document-123e
+2025-03-12 08:50:01 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c85a6c81-3667-4116-8f20-1d748494e7bb subscribed to document demo-document-123er
+2025-03-12 08:50:01 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c85a6c81-3667-4116-8f20-1d748494e7bb subscribed to document demo-document-123ere
+2025-03-12 08:50:42 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 0cdac025-d8c3-40e0-9fde-2e198911a7c6 (User: dev_user)
+2025-03-12 08:50:43 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 7e91163b-d190-4be3-a9f3-ffa08399be01 (User: dev_user)
+2025-03-12 08:50:43 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c85a6c81-3667-4116-8f20-1d748494e7bb (User: dev_user)
+2025-03-12 08:50:43 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 9ed53ffd-854d-4d5f-88aa-aad856632f0a (User: dev_user)
+2025-03-12 08:50:43 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 9ed53ffd-854d-4d5f-88aa-aad856632f0a subscribed to document demo-document-123
+2025-03-12 08:50:43 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 9ed53ffd-854d-4d5f-88aa-aad856632f0a subscribed to document demo-document-123e
+2025-03-12 08:50:43 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 9ed53ffd-854d-4d5f-88aa-aad856632f0a subscribed to document demo-document-123er
+2025-03-12 08:50:43 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 9ed53ffd-854d-4d5f-88aa-aad856632f0a subscribed to document demo-document-123ere
+2025-03-12 08:50:46 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 9ed53ffd-854d-4d5f-88aa-aad856632f0a (User: dev_user)
+2025-03-12 08:50:46 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 7e91163b-d190-4be3-a9f3-ffa08399be01 (User: dev_user)
+2025-03-12 08:50:46 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:50:46 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:50:46 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:50:46 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:50:46 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:50:47 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:50:47 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:50:47 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:50:47 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:50:47 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 65074d8d-0dc5-4eb6-8a7d-f79ad340ca56 (User: dev_user)
+2025-03-12 08:50:48 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: b278da01-c0f9-4a3d-81e6-acd83173be58 (User: dev_user)
+2025-03-12 08:50:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b278da01-c0f9-4a3d-81e6-acd83173be58 subscribed to document demo-document-123
+2025-03-12 08:50:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b278da01-c0f9-4a3d-81e6-acd83173be58 subscribed to document demo-document-123e
+2025-03-12 08:50:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b278da01-c0f9-4a3d-81e6-acd83173be58 subscribed to document demo-document-123er
+2025-03-12 08:50:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection b278da01-c0f9-4a3d-81e6-acd83173be58 subscribed to document demo-document-123ere
+2025-03-12 08:50:52 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 65074d8d-0dc5-4eb6-8a7d-f79ad340ca56 (User: dev_user)
+2025-03-12 08:50:52 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: b278da01-c0f9-4a3d-81e6-acd83173be58 (User: dev_user)
+2025-03-12 08:50:52 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:50:52 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:50:52 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:50:52 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:50:52 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:50:53 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:50:53 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:50:53 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:50:53 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:50:54 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: d308c397-c9c3-45a8-a965-036ecfc4ab90 (User: dev_user)
+2025-03-12 08:50:54 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 765cd850-d379-4003-aec4-2b86f5a48b94 (User: dev_user)
+2025-03-12 08:50:54 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 765cd850-d379-4003-aec4-2b86f5a48b94 subscribed to document demo-document-123
+2025-03-12 08:50:54 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 765cd850-d379-4003-aec4-2b86f5a48b94 subscribed to document demo-document-123e
+2025-03-12 08:50:54 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 765cd850-d379-4003-aec4-2b86f5a48b94 subscribed to document demo-document-123er
+2025-03-12 08:50:54 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 765cd850-d379-4003-aec4-2b86f5a48b94 subscribed to document demo-document-123ere
+2025-03-12 08:51:35 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: d308c397-c9c3-45a8-a965-036ecfc4ab90 (User: dev_user)
+2025-03-12 08:51:35 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 5b299db9-5443-470f-8cb4-ecb33b6b3efa (User: dev_user)
+2025-03-12 08:51:36 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 765cd850-d379-4003-aec4-2b86f5a48b94 (User: dev_user)
+2025-03-12 08:51:36 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 83acbe5d-f0bd-4a17-9b82-a395b06a8f10 (User: dev_user)
+2025-03-12 08:51:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83acbe5d-f0bd-4a17-9b82-a395b06a8f10 subscribed to document demo-document-123
+2025-03-12 08:51:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83acbe5d-f0bd-4a17-9b82-a395b06a8f10 subscribed to document demo-document-123e
+2025-03-12 08:51:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83acbe5d-f0bd-4a17-9b82-a395b06a8f10 subscribed to document demo-document-123er
+2025-03-12 08:51:36 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 83acbe5d-f0bd-4a17-9b82-a395b06a8f10 subscribed to document demo-document-123ere
+2025-03-12 08:52:18 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 5b299db9-5443-470f-8cb4-ecb33b6b3efa (User: dev_user)
+2025-03-12 08:52:18 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f618d729-0f70-4068-83b7-47e8163a3810 (User: dev_user)
+2025-03-12 08:52:18 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 83acbe5d-f0bd-4a17-9b82-a395b06a8f10 (User: dev_user)
+2025-03-12 08:52:18 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 75191c3c-1d4e-421c-ac94-c59f4960bcd6 (User: dev_user)
+2025-03-12 08:52:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 75191c3c-1d4e-421c-ac94-c59f4960bcd6 subscribed to document demo-document-123
+2025-03-12 08:52:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 75191c3c-1d4e-421c-ac94-c59f4960bcd6 subscribed to document demo-document-123e
+2025-03-12 08:52:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 75191c3c-1d4e-421c-ac94-c59f4960bcd6 subscribed to document demo-document-123er
+2025-03-12 08:52:18 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 75191c3c-1d4e-421c-ac94-c59f4960bcd6 subscribed to document demo-document-123ere
+2025-03-12 08:52:20 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 75191c3c-1d4e-421c-ac94-c59f4960bcd6 (User: dev_user)
+2025-03-12 08:52:20 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f618d729-0f70-4068-83b7-47e8163a3810 (User: dev_user)
+2025-03-12 08:52:20 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:52:20 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:52:20 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:52:20 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:52:20 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:52:21 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:52:22 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:52:22 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:52:22 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:52:22 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 0f140076-5851-43fc-a017-c8fdac35b45e (User: dev_user)
+2025-03-12 08:52:22 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: e40c9861-60cd-4a97-8cf2-557045a3a383 (User: dev_user)
+2025-03-12 08:52:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e40c9861-60cd-4a97-8cf2-557045a3a383 subscribed to document demo-document-123
+2025-03-12 08:52:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e40c9861-60cd-4a97-8cf2-557045a3a383 subscribed to document demo-document-123e
+2025-03-12 08:52:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e40c9861-60cd-4a97-8cf2-557045a3a383 subscribed to document demo-document-123er
+2025-03-12 08:52:22 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection e40c9861-60cd-4a97-8cf2-557045a3a383 subscribed to document demo-document-123ere
+2025-03-12 08:52:55 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 0f140076-5851-43fc-a017-c8fdac35b45e (User: dev_user)
+2025-03-12 08:52:55 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: e40c9861-60cd-4a97-8cf2-557045a3a383 (User: dev_user)
+2025-03-12 08:52:55 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:52:55 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:52:55 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:52:55 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:52:55 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:52:56 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:52:57 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:52:57 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:52:57 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:52:57 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 216479b4-aafd-4626-83d5-7472949a4bd9 (User: dev_user)
+2025-03-12 08:52:57 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f5a6c7f0-37df-4404-8b1b-54fa054e7e42 (User: dev_user)
+2025-03-12 08:52:57 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f5a6c7f0-37df-4404-8b1b-54fa054e7e42 subscribed to document demo-document-123
+2025-03-12 08:52:57 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f5a6c7f0-37df-4404-8b1b-54fa054e7e42 subscribed to document demo-document-123e
+2025-03-12 08:52:57 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f5a6c7f0-37df-4404-8b1b-54fa054e7e42 subscribed to document demo-document-123er
+2025-03-12 08:52:57 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection f5a6c7f0-37df-4404-8b1b-54fa054e7e42 subscribed to document demo-document-123ere
+2025-03-12 08:53:38 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 216479b4-aafd-4626-83d5-7472949a4bd9 (User: dev_user)
+2025-03-12 08:53:38 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: d8ec69e6-1ab9-4f27-99f6-b4839ef81572 (User: dev_user)
+2025-03-12 08:53:39 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f5a6c7f0-37df-4404-8b1b-54fa054e7e42 (User: dev_user)
+2025-03-12 08:53:39 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 3445ea4b-419f-41c1-bce3-4d82f70dd807 (User: dev_user)
+2025-03-12 08:53:39 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 3445ea4b-419f-41c1-bce3-4d82f70dd807 subscribed to document demo-document-123
+2025-03-12 08:53:39 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 3445ea4b-419f-41c1-bce3-4d82f70dd807 subscribed to document demo-document-123e
+2025-03-12 08:53:39 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 3445ea4b-419f-41c1-bce3-4d82f70dd807 subscribed to document demo-document-123er
+2025-03-12 08:53:39 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 3445ea4b-419f-41c1-bce3-4d82f70dd807 subscribed to document demo-document-123ere
+2025-03-12 08:54:16 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: d8ec69e6-1ab9-4f27-99f6-b4839ef81572 (User: dev_user)
+2025-03-12 08:54:16 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 3445ea4b-419f-41c1-bce3-4d82f70dd807 (User: dev_user)
+2025-03-12 08:54:16 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:54:16 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:54:16 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:54:16 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:54:16 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:54:17 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:54:17 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:54:17 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:54:17 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:54:17 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 2c5eb70f-fe7e-4fd5-9b4c-6a84d8f631bc (User: dev_user)
+2025-03-12 08:54:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2c5eb70f-fe7e-4fd5-9b4c-6a84d8f631bc subscribed to document demo-document-123
+2025-03-12 08:54:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2c5eb70f-fe7e-4fd5-9b4c-6a84d8f631bc subscribed to document demo-document-123e
+2025-03-12 08:54:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2c5eb70f-fe7e-4fd5-9b4c-6a84d8f631bc subscribed to document demo-document-123er
+2025-03-12 08:54:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2c5eb70f-fe7e-4fd5-9b4c-6a84d8f631bc subscribed to document demo-document-123ere
+2025-03-12 08:54:18 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: a01f06f6-7959-48c3-aa18-c81b02b95d34 (User: dev_user)
+2025-03-12 08:54:59 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 2c5eb70f-fe7e-4fd5-9b4c-6a84d8f631bc (User: dev_user)
+2025-03-12 08:54:59 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 05670a9e-08c1-4652-8cf4-1f189b8cb9b2 (User: dev_user)
+2025-03-12 08:54:59 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: a01f06f6-7959-48c3-aa18-c81b02b95d34 (User: dev_user)
+2025-03-12 08:55:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 05670a9e-08c1-4652-8cf4-1f189b8cb9b2 subscribed to document demo-document-123
+2025-03-12 08:55:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 05670a9e-08c1-4652-8cf4-1f189b8cb9b2 subscribed to document demo-document-123e
+2025-03-12 08:55:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 05670a9e-08c1-4652-8cf4-1f189b8cb9b2 subscribed to document demo-document-123er
+2025-03-12 08:55:00 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 05670a9e-08c1-4652-8cf4-1f189b8cb9b2 subscribed to document demo-document-123ere
+2025-03-12 08:55:00 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c223a782-6b08-4850-811e-c4d422f8009e (User: dev_user)
+2025-03-12 08:55:15 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 05670a9e-08c1-4652-8cf4-1f189b8cb9b2 (User: dev_user)
+2025-03-12 08:55:15 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c223a782-6b08-4850-811e-c4d422f8009e (User: dev_user)
+2025-03-12 08:55:16 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:55:16 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:55:16 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:55:16 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:55:16 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:55:17 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:55:17 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:55:17 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:55:17 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:55:17 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 763ec48a-0feb-45c9-b3ff-3e7a6da3fa85 (User: dev_user)
+2025-03-12 08:55:17 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 2927e3db-85a3-47d0-8e23-faa3d0efa7ab (User: dev_user)
+2025-03-12 08:55:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2927e3db-85a3-47d0-8e23-faa3d0efa7ab subscribed to document demo-document-123
+2025-03-12 08:55:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2927e3db-85a3-47d0-8e23-faa3d0efa7ab subscribed to document demo-document-123e
+2025-03-12 08:55:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2927e3db-85a3-47d0-8e23-faa3d0efa7ab subscribed to document demo-document-123er
+2025-03-12 08:55:17 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2927e3db-85a3-47d0-8e23-faa3d0efa7ab subscribed to document demo-document-123ere
+2025-03-12 08:55:58 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 763ec48a-0feb-45c9-b3ff-3e7a6da3fa85 (User: dev_user)
+2025-03-12 08:55:58 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: e287fc7f-5a44-44be-b761-2193bf1e5137 (User: dev_user)
+2025-03-12 08:55:58 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 2927e3db-85a3-47d0-8e23-faa3d0efa7ab (User: dev_user)
+2025-03-12 08:55:59 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 4c66279c-4792-4298-a44e-7e61da4ddefd (User: dev_user)
+2025-03-12 08:55:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 4c66279c-4792-4298-a44e-7e61da4ddefd subscribed to document demo-document-123
+2025-03-12 08:55:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 4c66279c-4792-4298-a44e-7e61da4ddefd subscribed to document demo-document-123e
+2025-03-12 08:55:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 4c66279c-4792-4298-a44e-7e61da4ddefd subscribed to document demo-document-123er
+2025-03-12 08:55:59 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 4c66279c-4792-4298-a44e-7e61da4ddefd subscribed to document demo-document-123ere
+2025-03-12 08:56:26 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 4c66279c-4792-4298-a44e-7e61da4ddefd (User: dev_user)
+2025-03-12 08:56:26 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: e287fc7f-5a44-44be-b761-2193bf1e5137 (User: dev_user)
+2025-03-12 08:56:26 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:56:26 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:56:26 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:56:26 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:56:26 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:56:27 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:56:27 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:56:28 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:56:28 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:56:28 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: f14fdd6b-28e7-4952-9f83-e46e9a8cb479 (User: dev_user)
+2025-03-12 08:56:28 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c796e4ed-66cb-4a0b-a9c9-fe523549e72b (User: dev_user)
+2025-03-12 08:56:28 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c796e4ed-66cb-4a0b-a9c9-fe523549e72b subscribed to document demo-document-123
+2025-03-12 08:56:28 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c796e4ed-66cb-4a0b-a9c9-fe523549e72b subscribed to document demo-document-123e
+2025-03-12 08:56:28 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c796e4ed-66cb-4a0b-a9c9-fe523549e72b subscribed to document demo-document-123er
+2025-03-12 08:56:28 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c796e4ed-66cb-4a0b-a9c9-fe523549e72b subscribed to document demo-document-123ere
+2025-03-12 08:57:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: f14fdd6b-28e7-4952-9f83-e46e9a8cb479 (User: dev_user)
+2025-03-12 08:57:09 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: fa0e4462-b761-4c96-a3d5-321e6750a609 (User: dev_user)
+2025-03-12 08:57:09 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c796e4ed-66cb-4a0b-a9c9-fe523549e72b (User: dev_user)
+2025-03-12 08:57:10 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 2b3cff55-d02a-459f-a73b-4f799abe1273 (User: dev_user)
+2025-03-12 08:57:10 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2b3cff55-d02a-459f-a73b-4f799abe1273 subscribed to document demo-document-123
+2025-03-12 08:57:10 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2b3cff55-d02a-459f-a73b-4f799abe1273 subscribed to document demo-document-123e
+2025-03-12 08:57:10 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2b3cff55-d02a-459f-a73b-4f799abe1273 subscribed to document demo-document-123er
+2025-03-12 08:57:10 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 2b3cff55-d02a-459f-a73b-4f799abe1273 subscribed to document demo-document-123ere
+2025-03-12 08:57:28 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: fa0e4462-b761-4c96-a3d5-321e6750a609 (User: dev_user)
+2025-03-12 08:57:28 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 2b3cff55-d02a-459f-a73b-4f799abe1273 (User: dev_user)
+2025-03-12 08:57:28 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:57:28 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:57:28 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:57:28 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:57:28 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:57:29 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:57:29 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:57:29 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:57:29 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:57:29 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 26ee8dfc-7f32-4116-9776-a13985cbfec1 (User: dev_user)
+2025-03-12 08:57:29 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 792cfc0b-67d8-457e-ad68-f34ccf1563a1 (User: dev_user)
+2025-03-12 08:57:29 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 792cfc0b-67d8-457e-ad68-f34ccf1563a1 subscribed to document demo-document-123
+2025-03-12 08:57:29 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 792cfc0b-67d8-457e-ad68-f34ccf1563a1 subscribed to document demo-document-123e
+2025-03-12 08:57:29 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 792cfc0b-67d8-457e-ad68-f34ccf1563a1 subscribed to document demo-document-123er
+2025-03-12 08:57:29 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 792cfc0b-67d8-457e-ad68-f34ccf1563a1 subscribed to document demo-document-123ere
+2025-03-12 08:58:04 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 26ee8dfc-7f32-4116-9776-a13985cbfec1 (User: dev_user)
+2025-03-12 08:58:04 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 792cfc0b-67d8-457e-ad68-f34ccf1563a1 (User: dev_user)
+2025-03-12 08:58:04 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:58:04 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:58:04 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:58:04 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:58:04 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:58:06 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:58:06 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:58:06 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:58:06 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:58:06 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 82f735f6-7545-4954-8c31-bd1a51ae89df (User: dev_user)
+2025-03-12 08:58:06 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 82f735f6-7545-4954-8c31-bd1a51ae89df subscribed to document demo-document-123
+2025-03-12 08:58:06 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 82f735f6-7545-4954-8c31-bd1a51ae89df subscribed to document demo-document-123e
+2025-03-12 08:58:06 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 82f735f6-7545-4954-8c31-bd1a51ae89df subscribed to document demo-document-123er
+2025-03-12 08:58:06 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 82f735f6-7545-4954-8c31-bd1a51ae89df subscribed to document demo-document-123ere
+2025-03-12 08:58:06 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 098d9f99-7376-458c-9aff-4fa272f7261d (User: dev_user)
+2025-03-12 08:58:47 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 82f735f6-7545-4954-8c31-bd1a51ae89df (User: dev_user)
+2025-03-12 08:58:48 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 56b7bdb5-7569-436a-81d7-4f99de8e743e (User: dev_user)
+2025-03-12 08:58:48 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 098d9f99-7376-458c-9aff-4fa272f7261d (User: dev_user)
+2025-03-12 08:58:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 56b7bdb5-7569-436a-81d7-4f99de8e743e subscribed to document demo-document-123
+2025-03-12 08:58:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 56b7bdb5-7569-436a-81d7-4f99de8e743e subscribed to document demo-document-123e
+2025-03-12 08:58:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 56b7bdb5-7569-436a-81d7-4f99de8e743e subscribed to document demo-document-123er
+2025-03-12 08:58:48 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection 56b7bdb5-7569-436a-81d7-4f99de8e743e subscribed to document demo-document-123ere
+2025-03-12 08:58:48 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 10f2303d-9788-4934-be85-e50f172e178b (User: dev_user)
+2025-03-12 08:59:10 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 56b7bdb5-7569-436a-81d7-4f99de8e743e (User: dev_user)
+2025-03-12 08:59:10 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 10f2303d-9788-4934-be85-e50f172e178b (User: dev_user)
+2025-03-12 08:59:10 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:59:10 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:59:10 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:59:10 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:59:10 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database
+2025-03-12 08:59:11 | SUCCESS  | src.app.main:startup_event:76 - Connected to Neo4j database
+2025-03-12 08:59:11 | SUCCESS  | src.app.main:startup_event:80 - Connected to Qdrant database
+2025-03-12 08:59:11 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-12 08:59:11 | SUCCESS  | src.app.main:startup_event:92 - Started event publisher
+2025-03-12 08:59:11 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: c4520c4f-138e-41ab-8b16-d369af0aad53 (User: dev_user)
+2025-03-12 08:59:11 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c4520c4f-138e-41ab-8b16-d369af0aad53 subscribed to document demo-document-123
+2025-03-12 08:59:11 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c4520c4f-138e-41ab-8b16-d369af0aad53 subscribed to document demo-document-123e
+2025-03-12 08:59:11 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c4520c4f-138e-41ab-8b16-d369af0aad53 subscribed to document demo-document-123er
+2025-03-12 08:59:11 | DEBUG    | src.app.services.websocket_service:subscribe_to_document:189 - Connection c4520c4f-138e-41ab-8b16-d369af0aad53 subscribed to document demo-document-123ere
+2025-03-12 08:59:12 | INFO     | src.app.services.websocket_service:connect:107 - Client connected: 055e18c5-2893-4739-b295-63eccf5fb034 (User: dev_user)
+2025-03-12 08:59:43 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: 055e18c5-2893-4739-b295-63eccf5fb034 (User: dev_user)
+2025-03-12 08:59:43 | INFO     | src.app.services.websocket_service:disconnect:155 - Client disconnected: c4520c4f-138e-41ab-8b16-d369af0aad53 (User: dev_user)
+2025-03-12 08:59:43 | WARNING  | src.app.services.event_service:_process_events:532 - Event processing task cancelled
+2025-03-12 08:59:43 | SUCCESS  | src.app.services.event_service:stop:71 - Event publisher stopped
+2025-03-12 08:59:43 | SUCCESS  | src.app.main:shutdown_event:105 - Stopped event publisher
+2025-03-12 08:59:43 | SUCCESS  | src.app.main:shutdown_event:109 - Disconnected from Neo4j database
+2025-03-12 08:59:43 | SUCCESS  | src.app.main:shutdown_event:113 - Disconnected from Qdrant database

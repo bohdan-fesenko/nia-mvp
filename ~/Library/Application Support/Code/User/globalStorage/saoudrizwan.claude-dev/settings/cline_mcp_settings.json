@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "github.com/browserbase/mcp-server-browserbase": {
+      "command": "node",
+      "args": ["/Users/admin/Documents/Cline/MCP/mcp-server-browserbase/browserbase/dist/index.js"],
+      "env": {
+        "BROWSERBASE_API_KEY": "bb_live_Uc1KyoTxUfXrTfjjQFlhc2cWQxg",
+        "BROWSERBASE_PROJECT_ID": "752c1837-4b9c-4e72-94a1-22b091fa148d"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

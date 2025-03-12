@@ -13,3 +13,12 @@ some additional comments that are aligned with current concept. User has chat se
 ## Clarify  about Document Diff Commit changes
 do document diff we will use tool defined the same as in github ai copilot, with commit line by line and we track those diff and present it to use like in vs code ide commit changes (just save appropriate format and then those lines will be rendered as red and green at the front-end)
 
+## DEBUG websockets. REMOVE THEM
+Listen to me: why we use unrobust websockets while we have all our data stored in the database? also there is fact that ai agents (core of our product) will also work with data and change it in the database. Front-end should be connected to database means update information on the ui according to real-time changes that can occur on neo4j dataabse, that is. Websockets are unreliable, let's remove them completely!
+
+
+# 
+First of all, yes i want this architectural change, also look at the docs and update them first before if they need change according to your plan.
+I want the best real-time solution for front-end (you can change tech stack for this!), for example sse or what is the best. the goal is that user will see updates when they are made (for example similar when i see real-time comments chat in youtube or discord or twitch, i want to have similar experience here given my other requirements!
+
+we choosed Next Auth authentication, and created task for this @/web_app/project_docs/tasks/TASK_009_next_auth_implementation.md , but didn't implemented yet. Also i can add google oauth credentials to implement real google login so i can create my account and test like production. If implementing auth needed to be done before websocket change then tell me - you decide bext next steps!

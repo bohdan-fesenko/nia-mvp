@@ -14,7 +14,7 @@ from fastapi.openapi.utils import get_openapi
 from loguru import logger
 from .config import settings
 from .api.middlewares.error_handler import add_error_handlers
-from .api.routes import auth, projects, websocket, agent, document_processing, task_management, documents
+from .api.routes import auth, projects, agent, document_processing, task_management, documents, sse, message
 from .db.neo4j_client import neo4j_client
 from .db.qdrant_client import qdrant_client
 from .db.redis_client import redis_client
@@ -204,7 +204,8 @@ async def shutdown_event():
 
 # Include routers
 app.include_router(auth.router, prefix="/api/v1", tags=["authentication"])
-app.include_router(websocket.router, prefix="/api/v1", tags=["websocket"])
+app.include_router(sse.router, prefix="/api/v1", tags=["sse"])
+app.include_router(message.router, prefix="/api/v1", tags=["message"])
 app.include_router(projects.router, prefix="/api/v1", tags=["projects"])
 app.include_router(agent.router, prefix="/api/v1", tags=["agents"])
 app.include_router(document_processing.router, prefix="/api/v1", tags=["document-processing"])

@@ -1,5 +1,5 @@
 """
-Event service for publishing events to WebSocket connections.
+Event service for publishing events to SSE connections.
 This module provides a centralized way to publish events to clients.
 """
 import asyncio
@@ -8,9 +8,9 @@ from enum import Enum, auto
 from pydantic import BaseModel, Field
 from loguru import logger
 
-from .websocket_service import EventType
+from .sse_service import EventType
 from .diff_service import diff_service
-from .websocket_service import connection_manager, EventType
+from .sse_service import sse_manager, EventType
 
 class EventPriority(Enum):
     """
@@ -508,16 +508,16 @@ class EventPublisher:
                     
                     # Broadcast event to clients
                     if target_type == "user" and target_id:
-                        await connection_manager.broadcast_to_user(target_id, event_type, data)
+                        await sse_manager.broadcast_to_user(target_id, event_type, data)
                     elif target_type == "project" and target_id:
-                        await connection_manager.broadcast_to_project(target_id, event_type, data)
+                        await sse_manager.broadcast_to_project(target_id, event_type, data)
                     elif target_type == "document" and target_id:
-                        await connection_manager.broadcast_to_document(target_id, event_type, data)
+                        await sse_manager.broadcast_to_document(target_id, event_type, data)
                     elif target_type == "chat_session" and target_id:
-                        await connection_manager.broadcast_to_chat_session(target_id, event_type, data)
+                        await sse_manager.broadcast_to_chat_session(target_id, event_type, data)
                     else:
                         # Broadcast to all if no specific target
-                        await connection_manager.broadcast_to_all(event_type, data)
+                        await sse_manager.broadcast_to_all(event_type, data)
                     
                 except Exception as e:
                     logger.error(f"Error processing event: {str(e)}")

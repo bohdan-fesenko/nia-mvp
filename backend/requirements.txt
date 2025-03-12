@@ -2,6 +2,7 @@
 fastapi
 uvicorn
 python-multipart
+sse-starlette
 email-validator
 pydantic
 pydantic-settings

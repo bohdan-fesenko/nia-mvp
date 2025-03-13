@@ -125,7 +125,7 @@ class ExecutionAgentService:
         ))
         
         # Emit event
-        await event_service.emit_event(
+        await event_service.publish(
             "agent_task_started",
             {
                 "task_id": task.id,

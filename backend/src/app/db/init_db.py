@@ -123,6 +123,17 @@ INIT_QUERIES = [
     """
     CREATE INDEX agent_type_idx IF NOT EXISTS
     FOR (a:Agent) ON (a.type)
+    """,
+    
+    # Create indexes for OAuth authentication
+    """
+    CREATE INDEX user_provider_idx IF NOT EXISTS
+    FOR (u:User) ON (u.provider)
+    """,
+    
+    """
+    CREATE INDEX user_provider_user_id_idx IF NOT EXISTS
+    FOR (u:User) ON (u.provider, u.provider_user_id)
     """
 ]
 
@@ -160,7 +171,11 @@ async def init_neo4j_database():
                 name: $name,
                 password: $password,
                 created_at: datetime(),
-                updated_at: datetime()
+                updated_at: datetime(),
+                provider: 'local',
+                provider_user_id: $id,
+                email_verified: false,
+                locale: 'en'
             })
             RETURN u
             """

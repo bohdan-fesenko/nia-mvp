@@ -1,16 +1,18 @@
 """
-Event service for publishing events to SSE connections.
-This module provides a centralized way to publish events to clients.
+Event service for publishing events.
+This module provides a centralized way to publish events to clients via polling.
 """
 import asyncio
+import json
 from typing import Dict, Any, Optional, List, Set, Union
 from enum import Enum, auto
 from pydantic import BaseModel, Field
 from loguru import logger
+from datetime import datetime
 
-from .sse_service import EventType
+from .polling_service import EventType
 from .diff_service import diff_service
-from .sse_service import sse_manager, EventType
+from ..repositories.event_repository import event_repository
 
 class EventPriority(Enum):
     """
@@ -471,6 +473,7 @@ class EventPublisher:
     async def _process_events(self):
         """
         Process events from the queue.
+        Store events in Neo4j for polling.
         """
         try:
             while self._running:
@@ -484,6 +487,7 @@ class EventPublisher:
                     target_type = event["target_type"]
                     target_id = event["target_id"]
                     priority = event["priority"]
+                    created_by = data.get("user_id") if isinstance(data, dict) else None
                     
                     # Apply filters
                     if event_type in self._event_filters:
@@ -506,18 +510,19 @@ class EventPublisher:
                                 logger.error(f"Error in event handler for {event_type}: {str(e)}")
                                 logger.exception("Handler exception details:")
                     
-                    # Broadcast event to clients
-                    if target_type == "user" and target_id:
-                        await sse_manager.broadcast_to_user(target_id, event_type, data)
-                    elif target_type == "project" and target_id:
-                        await sse_manager.broadcast_to_project(target_id, event_type, data)
-                    elif target_type == "document" and target_id:
-                        await sse_manager.broadcast_to_document(target_id, event_type, data)
-                    elif target_type == "chat_session" and target_id:
-                        await sse_manager.broadcast_to_chat_session(target_id, event_type, data)
-                    else:
-                        # Broadcast to all if no specific target
-                        await sse_manager.broadcast_to_all(event_type, data)
+                    # Store event in Neo4j using the event repository
+                    try:
+                        await event_repository.create_event(
+                            event_type=event_type,
+                            data=data,
+                            target_type=target_type,
+                            target_id=target_id,
+                            created_by=created_by
+                        )
+                        logger.info(f"Event stored in Neo4j: {event_type} for {target_type}:{target_id}")
+                    except Exception as e:
+                        logger.error(f"Error storing event in Neo4j: {str(e)}")
+                        logger.exception("Event storage exception details:")
                     
                 except Exception as e:
                     logger.error(f"Error processing event: {str(e)}")

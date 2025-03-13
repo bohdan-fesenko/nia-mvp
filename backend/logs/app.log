@@ -17644,3 +17644,707 @@
 2025-03-12 22:56:37 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
 2025-03-12 22:56:37 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
 2025-03-12 22:56:37 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 01:12:56 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 01:12:57 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 01:12:57 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 01:12:57 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 01:12:57 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 01:12:57 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 01:12:57 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 01:12:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 01:12:57 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 01:12:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 01:12:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 01:12:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 01:12:57 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 01:12:57 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 01:12:57 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 01:22:24 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 01:22:26 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 01:22:26 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 01:22:26 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 01:22:26 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 01:22:26 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 01:22:26 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 01:22:26 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 01:22:26 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 01:22:26 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 01:22:26 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 01:22:26 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 01:22:26 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 01:22:26 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 01:22:26 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 01:22:26 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 01:22:36 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 01:22:38 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 01:22:38 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 01:22:38 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 01:22:38 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 01:22:38 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 01:22:38 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 01:22:38 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 01:22:38 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 01:22:38 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 01:22:38 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 01:22:38 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 01:22:38 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 01:22:38 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 01:22:38 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 01:22:38 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 01:22:45 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 01:22:46 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 01:22:46 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 01:22:46 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 01:22:46 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 01:22:46 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 01:22:46 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 01:22:46 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 01:22:46 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 01:22:46 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 01:22:46 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 01:22:46 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 01:22:46 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 01:22:46 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 01:22:46 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 01:22:46 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 01:23:06 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 01:29:53 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 01:29:54 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 01:29:54 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 01:29:54 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 01:29:54 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 01:29:54 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 01:29:54 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 01:29:54 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 01:29:54 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 01:29:54 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 01:29:54 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 01:29:54 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 01:29:54 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 01:29:54 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 01:29:54 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:23:25 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:23:26 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:23:33 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:23:33 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:23:33 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:23:33 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:23:33 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 02:23:33 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:23:33 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:23:33 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:23:33 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:23:33 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:23:33 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:23:33 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:23:33 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:23:33 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:23:33 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:23:39 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:23:41 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:23:41 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:23:41 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:23:41 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:23:41 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 02:23:41 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:23:41 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:23:41 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:23:41 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:23:41 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:23:41 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:23:41 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:23:41 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:23:41 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:23:41 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:23:47 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:23:48 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:23:48 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:23:48 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:23:48 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:23:48 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 02:23:48 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:23:48 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:23:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:23:48 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:23:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:23:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:23:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:23:48 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:23:48 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:23:48 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:23:59 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:24:00 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:24:00 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:24:00 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:24:00 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:24:00 | SUCCESS  | src.app.services.event_service:start:54 - Event publisher started
+2025-03-13 02:24:00 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:24:00 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:24:00 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:24:00 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:24:00 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:24:00 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:24:00 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:24:00 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:24:00 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:24:00 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:30:03 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:41:47 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:41:47 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:41:47 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:41:47 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:41:47 | SUCCESS  | src.app.services.event_service:start:55 - Event publisher started
+2025-03-13 02:41:47 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:41:47 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:41:47 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:41:47 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:41:47 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:41:47 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:41:47 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:41:47 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:41:47 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:41:47 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:42:10 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:42:12 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:42:12 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:42:12 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:42:12 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:42:12 | SUCCESS  | src.app.services.event_service:start:55 - Event publisher started
+2025-03-13 02:42:12 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:42:12 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:42:12 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:42:12 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:42:12 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:42:12 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:42:12 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:42:12 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:42:12 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:42:12 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:42:46 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:42:47 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:42:47 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:42:47 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:42:47 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:42:48 | SUCCESS  | src.app.services.event_service:start:55 - Event publisher started
+2025-03-13 02:42:48 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:42:48 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:42:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:42:48 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:42:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:42:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:42:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:42:48 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:42:48 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:42:48 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:52:54 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:52:56 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:52:56 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:52:56 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:52:56 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:52:56 | SUCCESS  | src.app.services.event_service:start:55 - Event publisher started
+2025-03-13 02:52:56 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:52:56 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:52:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:52:56 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:52:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:52:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:52:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:52:56 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:52:56 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:52:56 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:53:20 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:53:22 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:53:22 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:53:22 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:53:22 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:53:22 | SUCCESS  | src.app.services.event_service:start:55 - Event publisher started
+2025-03-13 02:53:22 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:53:22 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:53:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:53:22 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:53:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:53:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:53:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:53:22 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:53:22 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:53:22 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:53:42 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:53:44 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:53:44 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:53:44 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:53:44 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:53:44 | SUCCESS  | src.app.services.event_service:start:55 - Event publisher started
+2025-03-13 02:53:44 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:53:44 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:53:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:53:44 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:53:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:53:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:53:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:53:44 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:53:44 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:53:44 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:53:53 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:53:55 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:53:55 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:53:55 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:53:55 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:53:55 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:53:55 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:53:55 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:53:55 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:53:55 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:53:55 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:53:55 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:53:55 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:53:55 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:53:55 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:53:55 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:54:18 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:54:20 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:54:20 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:54:20 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:54:20 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:54:20 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:54:20 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:54:20 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:54:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:54:20 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:54:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:54:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:54:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:54:20 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:54:20 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:54:20 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:54:23 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:54:24 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:54:24 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:54:24 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:54:24 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:54:24 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:54:24 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:54:24 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:54:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:54:24 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:54:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:54:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:54:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:54:24 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:54:24 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:54:24 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:54:34 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:54:36 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:54:36 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:54:36 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:54:36 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:54:36 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:54:36 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:54:36 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:54:36 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:54:36 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:54:36 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:54:36 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:54:36 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:54:36 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:54:36 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:54:36 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:54:43 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:54:45 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:54:45 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:54:45 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:54:45 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:54:45 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:54:45 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:54:45 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:54:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:54:45 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:54:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:54:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:54:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:54:45 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:54:45 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:54:45 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:54:54 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:54:56 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:54:56 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:54:56 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:54:56 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:54:56 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:54:56 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:54:56 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:54:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:54:56 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:54:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:54:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:54:56 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:54:56 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:54:56 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:54:56 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:56:12 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:56:13 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:56:13 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:56:13 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:56:13 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:56:13 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:56:13 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:56:13 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:56:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:56:13 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:56:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:56:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:56:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:56:13 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:56:13 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:56:13 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:56:21 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:56:22 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:56:22 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:56:22 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:56:22 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:56:22 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:56:22 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:56:22 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:56:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:56:22 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:56:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:56:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:56:22 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:56:22 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:56:22 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:56:22 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:56:30 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:56:31 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:56:31 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:56:32 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:56:32 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:56:32 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:56:32 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:56:32 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:56:32 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:56:32 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:56:32 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:56:32 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:56:32 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:56:32 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:56:32 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:56:32 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 02:56:46 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 02:56:47 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 02:56:47 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 02:56:48 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 02:56:48 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 02:56:48 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 02:56:48 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 02:56:48 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 02:56:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 02:56:48 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 02:56:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 02:56:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 02:56:48 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 02:56:48 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 02:56:48 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 02:56:48 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 03:45:41 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 03:45:44 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 03:45:44 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 03:45:44 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 03:45:44 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 03:45:44 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 03:45:44 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 03:45:44 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 03:45:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 03:45:44 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 03:45:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 03:45:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 03:45:44 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 03:45:44 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 03:45:44 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 03:45:44 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 03:45:54 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 03:49:04 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 03:49:04 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 03:49:04 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 03:49:04 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 03:49:04 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 03:49:04 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 03:49:04 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 03:49:04 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 03:49:04 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 03:49:04 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 03:49:04 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 03:49:04 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 03:49:04 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 03:49:04 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 03:49:04 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 03:55:49 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 03:59:28 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 03:59:28 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 03:59:28 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 03:59:28 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 03:59:28 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 03:59:28 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 03:59:28 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 03:59:28 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 03:59:28 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 03:59:28 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 03:59:28 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 03:59:28 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 03:59:28 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 03:59:28 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 03:59:28 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:01:43 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:01:44 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:01:45 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:01:45 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:01:45 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:01:45 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:01:45 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:01:45 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:01:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:01:45 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:01:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:01:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:01:45 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:01:45 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:01:45 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:01:45 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:01:51 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:01:52 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:01:52 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:01:52 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:01:52 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:01:52 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:01:52 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:01:52 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:01:52 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:01:52 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:01:52 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:01:52 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:01:52 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:01:52 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:01:52 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:01:52 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:02:00 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:02:02 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:02:02 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:02:02 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:02:02 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:02:02 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:02:02 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:02:02 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:02:02 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:02:02 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:02:02 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:02:02 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:02:02 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:02:02 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:02:02 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:02:02 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:02:11 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:02:13 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:02:13 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:02:13 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:02:13 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:02:13 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:02:13 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:02:13 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:02:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:02:13 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:02:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:02:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:02:13 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:02:13 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:02:13 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:02:13 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:02:19 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:02:21 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:02:21 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:02:21 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:02:21 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:02:21 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:02:21 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:02:21 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:02:21 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:02:21 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:02:21 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:02:21 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:02:21 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:02:21 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:02:21 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:02:21 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:05:35 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:05:37 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:05:37 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:05:37 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:05:37 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:05:37 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:05:37 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:05:37 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:05:37 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:05:37 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:05:37 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:05:37 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:05:37 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:05:37 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:05:37 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:05:37 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:06:40 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:06:43 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:06:43 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:06:43 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:06:43 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:06:43 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:06:43 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:06:43 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:06:43 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:06:43 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:06:43 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:06:43 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:06:43 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:06:43 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:06:43 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:06:43 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:15:15 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:15:17 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:15:17 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:15:17 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:15:17 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:15:17 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:15:17 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:15:17 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:15:17 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:15:17 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:15:17 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:15:17 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:15:17 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:15:17 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:15:17 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:15:17 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:15:33 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:15:35 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:15:35 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:15:35 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:15:35 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:15:35 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:15:35 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:15:35 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:15:35 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:15:35 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:15:35 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:15:35 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:15:35 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:15:35 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:15:35 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:15:35 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:27:17 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:27:20 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:27:20 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:27:20 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:27:20 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:27:20 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:27:20 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:27:20 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:27:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:27:20 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:27:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:27:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:27:20 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:27:20 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:27:20 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:27:20 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:29:48 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:29:50 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:29:51 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:29:51 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:29:51 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:29:51 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:29:51 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:29:51 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:29:51 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:29:51 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:29:51 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:29:51 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:29:51 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:29:51 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:29:51 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:29:51 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:31:17 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:32:01 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:32:01 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:32:01 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:32:01 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:32:01 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:32:01 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:32:01 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:32:01 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:32:01 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:32:01 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:32:01 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:32:01 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:32:01 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:32:01 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:32:01 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:32:18 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:35:42 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:35:42 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:35:42 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:35:42 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:35:42 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:35:42 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:35:42 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:35:42 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:35:42 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:35:42 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:35:42 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:35:42 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:35:42 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:35:42 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:35:42 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:35:46 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:40:14 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:40:14 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:40:14 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:40:14 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:40:14 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:40:14 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:40:14 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:40:14 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:40:14 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:40:14 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:40:14 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:40:14 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:40:14 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:40:14 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:40:14 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:40:20 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:40:24 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:40:24 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:40:24 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:40:24 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:40:24 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:40:24 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:40:24 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:40:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:40:24 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:40:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:40:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:40:24 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:40:24 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:40:24 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:40:24 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions
+2025-03-13 04:40:26 | ERROR    | src.app.main:shutdown_event:202 - Error disconnecting from databases: name 'redis_connected' is not defined
+2025-03-13 04:41:55 | INFO     | src.app.main:<module>:71 - Added rate limit middleware
+2025-03-13 04:41:57 | SUCCESS  | src.app.main:startup_event:102 - Connected to Neo4j database
+2025-03-13 04:41:57 | SUCCESS  | src.app.main:startup_event:106 - Connected to Qdrant database
+2025-03-13 04:41:57 | SUCCESS  | src.app.main:startup_event:111 - Connected to Redis database
+2025-03-13 04:41:57 | SUCCESS  | src.app.services.event_service:start:56 - Event publisher started
+2025-03-13 04:41:57 | SUCCESS  | src.app.main:startup_event:138 - Started event publisher
+2025-03-13 04:41:57 | INFO     | src.app.main:startup_event:147 - Initializing LLM service with model: gpt-4o
+2025-03-13 04:41:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a60e8400-e29b-41d4-a716-446655440000 (AgentType.CONVERSATION)
+2025-03-13 04:41:57 | INFO     | src.app.services.conversation_agent_service:initialize:76 - Conversation agent initialized with ID: a60e8400-e29b-41d4-a716-446655440000
+2025-03-13 04:41:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a70e8400-e29b-41d4-a716-446655440000 (AgentType.DOCUMENT)
+2025-03-13 04:41:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a80e8400-e29b-41d4-a716-446655440000 (AgentType.TASK)
+2025-03-13 04:41:57 | INFO     | src.app.repositories.agent_repository:create_agent:37 - Created agent: a90e8400-e29b-41d4-a716-446655440000 (AgentType.ANALYSIS)
+2025-03-13 04:41:57 | INFO     | src.app.services.execution_agent_service:initialize:106 - Execution agents initialized
+2025-03-13 04:41:57 | SUCCESS  | src.app.main:startup_event:152 - Initialized agent services
+2025-03-13 04:41:57 | SUCCESS  | src.app.main:startup_event:158 - Cleaned up expired sessions

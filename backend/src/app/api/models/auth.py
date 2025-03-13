@@ -3,7 +3,7 @@ Authentication models.
 This module provides models for authentication.
 """
 from pydantic import BaseModel, EmailStr, Field, ConfigDict
-from typing import Optional
+from typing import Optional, Dict, Any
 from datetime import datetime
 
 from ...db.models import AppBaseModel, UserResponse
@@ -85,6 +85,37 @@ class RefreshTokenRequest(AppBaseModel):
         json_schema_extra={
             "example": {
                 "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+            }
+        }
+    )
+
+
+class OAuthUserData(AppBaseModel):
+    """
+    Model for OAuth user data
+    """
+    provider: str
+    provider_user_id: str
+    email: EmailStr
+    name: str
+    image: Optional[str] = None
+    access_token: str
+    email_verified: Optional[bool] = None
+    locale: Optional[str] = None
+    # Keeping provider_data for backward compatibility but will be phased out
+    provider_data: Optional[Dict[str, Any]] = None
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "provider": "google",
+                "provider_user_id": "123456789",
+                "email": "user@example.com",
+                "name": "John Doe",
+                "image": "https://example.com/avatar.jpg",
+                "access_token": "ya29.a0AfB_...",
+                "email_verified": True,
+                "locale": "en"
             }
         }
     )

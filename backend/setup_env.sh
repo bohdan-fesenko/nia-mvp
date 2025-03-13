@@ -80,8 +80,8 @@ echo "Initializing the database..."
 python -m src.app.db.init_db
 
 # Create sample data for testing
-echo "Creating sample data for testing..."
-python -m src.app.utils.create_sample_data
+# echo "Creating sample data for testing..."
+# python -m src.app.utils.create_sample_data # we don't need sample data
 
 echo "Environment setup complete!"
 echo "To activate the environment, run: source venv/bin/activate"

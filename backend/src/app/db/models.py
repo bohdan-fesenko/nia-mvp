@@ -1014,3 +1014,82 @@ class StatusUpdateResponse(AppBaseModel):
             }
         }
     )
+
+
+# Event models
+class Event(AppBaseModel):
+    """Event model"""
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    type: str  # Event type (e.g., "document:updated", "agent:task:completed")
+    data: Dict[str, Any]  # Event data
+    target_type: Optional[str] = None  # Target type (e.g., "user", "project", "document")
+    target_id: Optional[str] = None  # Target ID
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+    created_by: Optional[str] = None  # User ID who created the event
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "id": "550e8400-e29b-41d4-a716-446655440000",
+                "type": "document:updated",
+                "data": {
+                    "document_id": "550e8400-e29b-41d4-a716-446655440001",
+                    "name": "Updated Document Name"
+                },
+                "target_type": "document",
+                "target_id": "550e8400-e29b-41d4-a716-446655440001",
+                "created_at": "2023-01-01T00:00:00",
+                "created_by": "550e8400-e29b-41d4-a716-446655440002"
+            }
+        }
+    )
+
+
+class EventCreate(AppBaseModel):
+    """Model for event creation"""
+    type: str
+    data: Dict[str, Any]
+    target_type: Optional[str] = None
+    target_id: Optional[str] = None
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "type": "document:updated",
+                "data": {
+                    "document_id": "550e8400-e29b-41d4-a716-446655440001",
+                    "name": "Updated Document Name"
+                },
+                "target_type": "document",
+                "target_id": "550e8400-e29b-41d4-a716-446655440001"
+            }
+        }
+    )
+
+
+class EventResponse(AppBaseModel):
+    """Event response model"""
+    id: str
+    type: str
+    data: Dict[str, Any]
+    target_type: Optional[str] = None
+    target_id: Optional[str] = None
+    created_at: datetime
+    created_by: Optional[str] = None
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "id": "550e8400-e29b-41d4-a716-446655440000",
+                "type": "document:updated",
+                "data": {
+                    "document_id": "550e8400-e29b-41d4-a716-446655440001",
+                    "name": "Updated Document Name"
+                },
+                "target_type": "document",
+                "target_id": "550e8400-e29b-41d4-a716-446655440001",
+                "created_at": "2023-01-01T00:00:00",
+                "created_by": "550e8400-e29b-41d4-a716-446655440002"
+            }
+        }
+    )

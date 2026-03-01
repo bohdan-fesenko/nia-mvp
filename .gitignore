@@ -1,1 +1,10 @@
 web_app/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Virtual environment
+backend/venv/
